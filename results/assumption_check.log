@@ -1,0 +1,7 @@
+relative mean signal e_s (pool = 1): {'Panama Papers': np.float64(1.148), 'Paradise Papers': np.float64(0.891), 'Offshore Leaks': np.float64(0.928), 'Bahamas Leaks': np.float64(0.922)} | winsorised: {'Panama Papers': np.float64(1.16), 'Paradise Papers': np.float64(0.874), 'Offshore Leaks': np.float64(0.928), 'Bahamas Leaks': np.float64(0.956)} | max/min 1.29
+[mean] adjusted rates {'Panama Papers': np.float64(0.0436), 'Paradise Papers': np.float64(0.0102), 'Offshore Leaks': np.float64(0.0102), 'Bahamas Leaks': np.float64(0.0288)} | in-corpus reference: actual rates 0.653, signal-adjusted 0.634
+[winsorised] adjusted rates {'Panama Papers': np.float64(0.0431), 'Paradise Papers': np.float64(0.0104), 'Offshore Leaks': np.float64(0.0102), 'Bahamas Leaks': np.float64(0.0278)} | in-corpus reference: actual rates 0.653, signal-adjusted 0.633
+held-out Panama Papers    plug-in reference: actual rates 0.344 | signal-adjusted 0.323
+held-out Paradise Papers  plug-in reference: actual rates 0.694 | signal-adjusted 0.694
+held-out Offshore Leaks   plug-in reference: actual rates 0.537 | signal-adjusted 0.537
+held-out Bahamas Leaks    plug-in reference: actual rates 0.490 | signal-adjusted 0.490

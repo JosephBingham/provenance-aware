@@ -1,0 +1,131 @@
+{
+ "sources": [
+  "ext_ru_egrul",
+  "us_sam_exclusions",
+  "gb_coh_disqualified",
+  "wikidata",
+  "ru_acf_bribetakers"
+ ],
+ "cells": {
+  "ext_ru_egrul": {
+   "n": 60909,
+   "pos": 3736
+  },
+  "us_sam_exclusions": {
+   "n": 16227,
+   "pos": 914
+  },
+  "ua_war_sanctions": {
+   "n": 1137,
+   "pos": 608
+  },
+  "gb_coh_disqualified": {
+   "n": 6365,
+   "pos": 326
+  },
+  "wikidata": {
+   "n": 43056,
+   "pos": 308
+  },
+  "ru_acf_bribetakers": {
+   "n": 4038,
+   "pos": 187
+  },
+  "tw_shtc": {
+   "n": 95,
+   "pos": 95
+  },
+  "ext_us_ofac_press_releases": {
+   "n": 79,
+   "pos": 79
+  },
+  "ext_ge_company_registry": {
+   "n": 48,
+   "pos": 48
+  },
+  "in_nia_wanted": {
+   "n": 452,
+   "pos": 23
+  },
+  "interpol_red_notices": {
+   "n": 6101,
+   "pos": 19
+  },
+  "eg_terrorists": {
+   "n": 3627,
+   "pos": 13
+  },
+  "ext_ua_edr": {
+   "n": 12,
+   "pos": 11
+  },
+  "ext_cz_business_register": {
+   "n": 11,
+   "pos": 10
+  },
+  "ext_icij_offshoreleaks": {
+   "n": 10,
+   "pos": 10
+  },
+  "kp_rusi_reports": {
+   "n": 1640,
+   "pos": 10
+  },
+  "ext_lv_business_register": {
+   "n": 5,
+   "pos": 5
+  },
+  "il_mod_terrorists": {
+   "n": 17,
+   "pos": 3
+  },
+  "pk_proscribed_persons": {
+   "n": 5175,
+   "pos": 3
+  },
+  "ext_md_companies": {
+   "n": 2,
+   "pos": 2
+  }
+ },
+ "n": 130595,
+ "pos": 5471,
+ "by_source": {
+  "ext_ru_egrul": {
+   "size": 60909,
+   "sum": 3736,
+   "mean": 0.061337404981201465
+  },
+  "gb_coh_disqualified": {
+   "size": 6365,
+   "sum": 326,
+   "mean": 0.051217596229379415
+  },
+  "ru_acf_bribetakers": {
+   "size": 4038,
+   "sum": 187,
+   "mean": 0.04631005448241704
+  },
+  "us_sam_exclusions": {
+   "size": 16227,
+   "sum": 914,
+   "mean": 0.056325876625377455
+  },
+  "wikidata": {
+   "size": 43056,
+   "sum": 308,
+   "mean": 0.007153474544778893
+  }
+ },
+ "struct_cols": [
+  "Directorship_out",
+  "Family_out",
+  "Ownership_out",
+  "n_nbrs",
+  "nbr_deg_mean",
+  "nbr_deg_max",
+  "two_hop",
+  "log_n_nbrs"
+ ],
+ "isolated_by_source_y": "{('ext_ru_egrul', 0): 0.0, ('ext_ru_egrul', 1): 0.0, ('gb_coh_disqualified', 0): 0.005630071203841696, ('gb_coh_disqualified', 1): 1.0, ('ru_acf_bribetakers', 0): 1.0, ('ru_acf_bribetakers', 1): 1.0, ('us_sam_exclusions', 0): 1.0, ('us_sam_exclusions', 1): 1.0, ('wikidata', 0): 0.9989941049873678, ('wikidata', 1): 0.8506493506493507}"
+}

@@ -1,0 +1,63 @@
+{
+ "version": "20261124065439-mxy",
+ "n_datasets": 490,
+ "n_label_datasets": 80,
+ "persons": 586473,
+ "positives": 10968,
+ "rates": {
+  "ext_ru_egrul": 0.07049957976609353,
+  "gb_coh_disqualified": 0.09481725584182145,
+  "ru_acf_bribetakers": 0.06928073129660813,
+  "us_sam_exclusions": 0.04444028190779461,
+  "wikidata": 0.0030998302473912143
+ },
+ "sgraph_edges": 705563,
+ "sgraph_by_schema": {
+  "Occupancy": 409586,
+  "Ownership": 146586,
+  "Directorship": 94973,
+  "Family": 34172,
+  "Succession": 19960,
+  "Associate": 286
+ },
+ "isolated_by_src_y": {
+  "ext_ru_egrul|0": 0.0,
+  "ext_ru_egrul|1": 0.0,
+  "gb_coh_disqualified|0": 0.005626344530862155,
+  "gb_coh_disqualified|1": 1.0,
+  "ru_acf_bribetakers|0": 1.0,
+  "ru_acf_bribetakers|1": 1.0,
+  "us_sam_exclusions|0": 1.0,
+  "us_sam_exclusions|1": 1.0,
+  "wikidata|0": 0.2937803453851132,
+  "wikidata|1": 0.41551459293394777
+ },
+ "checksums_match": true,
+ "quads_loaded": 1191598,
+ "sparql_rows": {
+  "gb_coh_disqualified": [
+   6676,
+   633
+  ],
+  "ext_ru_egrul": [
+   70199,
+   4949
+  ],
+  "ru_acf_bribetakers": [
+   4157,
+   288
+  ],
+  "us_sam_exclusions": [
+   85418,
+   3796
+  ],
+  "wikidata": [
+   420023,
+   1302
+  ]
+ },
+ "sam_address_share": {
+  "pos": 0.523972602739726,
+  "unl": 0.03532135943740658
+ }
+}

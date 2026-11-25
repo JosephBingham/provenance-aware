@@ -1,0 +1,756 @@
+PASS  entities: printed 814{,}344, recomputed 814344
+PASS  officers (export): printed 771{,}315, recomputed 771315
+PASS  relationships: printed 3{,}339{,}267, recomputed 3.33927e+06
+PASS  relationships with a source (%): printed 84, recomputed 84.4582
+PASS  quads (M): printed 5.18, recomputed 5.1842
+PASS  typed-graph nodes (M): printed 2.01, recomputed 2.0139
+PASS  typed-graph edges (M): printed 2.72, recomputed 2.7178
+PASS  officers in four leaks: printed 571{,}870, recomputed 571870
+PASS  positives: printed 14{,}878, recomputed 14878
+PASS  Panama Papers officers: printed 224{,}966, recomputed 224966
+PASS  Panama Papers positives: printed 11{,}251, recomputed 11251
+PASS  Panama Papers rate (%): printed 5.0, recomputed 5.0012
+PASS  Paradise Papers officers: printed 217{,}418, recomputed 217418
+PASS  Paradise Papers positives: printed 1{,}969, recomputed 1969
+PASS  Paradise Papers rate (%): printed 0.9, recomputed 0.905629
+PASS  Offshore Leaks officers: printed 104{,}239, recomputed 104239
+PASS  Offshore Leaks positives: printed 988, recomputed 988
+PASS  Offshore Leaks rate (%): printed 0.9, recomputed 0.947822
+PASS  Bahamas Leaks officers: printed 25{,}247, recomputed 25247
+PASS  Bahamas Leaks positives: printed 670, recomputed 670
+PASS  Bahamas Leaks rate (%): printed 2.7, recomputed 2.65378
+PASS  rate ratio: printed 5.5, recomputed 5.52235
+PASS  Panama share of positives (%): printed 76, recomputed 75.6217
+PASS  Panama share of officers (%): printed 39, recomputed 39.3387
+PASS  TransE final sampled MRR: printed 0.30, recomputed 0.3046
+PASS  TransE random-tail MRR: printed 0.05, recomputed 0.0515
+PASS  RDF2Vec cosine, shared entity: printed 0.88, recomputed 0.880049
+PASS  RDF2Vec cosine, random: printed 0.47, recomputed 0.473442
+PASS  in-corpus TransE (64-d) leak acc: printed 0.54, recomputed 0.53825
+PASS  in-corpus TransE (64-d) real U: printed 0.577, recomputed 0.577264
+PASS  in-corpus TransE (64-d) ref U: printed 0.556, recomputed 0.556329
+PASS  in-corpus TransE (64-d) thm2: printed 0.562, recomputed 0.56247
+PASS  in-corpus TransE (64-d) real M: printed 0.575, recomputed 0.574514
+PASS  in-corpus TransE (64-d) ref M: printed 0.500, recomputed 0.500305
+PASS  in-corpus Connectivity (3) leak acc: printed 0.77, recomputed 0.767825
+PASS  in-corpus Connectivity (3) real U: printed 0.721, recomputed 0.720976
+PASS  in-corpus Connectivity (3) ref U: printed 0.628, recomputed 0.627722
+PASS  in-corpus Connectivity (3) thm2: printed 0.631, recomputed 0.630907
+PASS  in-corpus Connectivity (3) real M: printed 0.665, recomputed 0.664694
+PASS  in-corpus Connectivity (3) ref M: printed 0.502, recomputed 0.502481
+PASS  in-corpus Structural (8) leak acc: printed 0.83, recomputed 0.8314
+PASS  in-corpus Structural (8) real U: printed 0.762, recomputed 0.762477
+PASS  in-corpus Structural (8) ref U: printed 0.651, recomputed 0.650551
+PASS  in-corpus Structural (8) thm2: printed 0.653, recomputed 0.652786
+PASS  in-corpus Structural (8) real M: printed 0.693, recomputed 0.692856
+PASS  in-corpus Structural (8) ref M: printed 0.500, recomputed 0.500105
+PASS  in-corpus Structural + graph (12) leak acc: printed 0.92, recomputed 0.91945
+PASS  in-corpus Structural + graph (12) real U: printed 0.830, recomputed 0.829844
+PASS  in-corpus Structural + graph (12) ref U: printed 0.683, recomputed 0.68307
+PASS  in-corpus Structural + graph (12) thm2: printed 0.688, recomputed 0.68836
+PASS  in-corpus Structural + graph (12) real M: printed 0.806, recomputed 0.805801
+PASS  in-corpus Structural + graph (12) ref M: printed 0.499, recomputed 0.499329
+PASS  in-corpus RDF2Vec (64-d) leak acc: printed 0.995, recomputed 0.995
+PASS  in-corpus RDF2Vec (64-d) real U: printed 0.868, recomputed 0.867862
+PASS  in-corpus RDF2Vec (64-d) ref U: printed 0.693, recomputed 0.692684
+PASS  in-corpus RDF2Vec (64-d) thm2: printed 0.695, recomputed 0.695216
+PASS  in-corpus RDF2Vec (64-d) real M: printed 0.836, recomputed 0.835694
+PASS  in-corpus RDF2Vec (64-d) ref M: printed 0.499, recomputed 0.498618
+PASS  in-corpus R-GCN leak acc (2-hop): printed 0.999, recomputed 0.998875
+PASS  in-corpus R-GCN real: printed 0.851, recomputed 0.850638
+PASS  in-corpus R-GCN ref: printed 0.694, recomputed 0.694092
+PASS  in-corpus reference range low: printed 0.56, recomputed 0.556329
+PASS  in-corpus reference range high: printed 0.69, recomputed 0.694092
+PASS  closed form, max gap (6 representations) <= 0.007: printed 1, recomputed 1
+PASS  closed form, max gap (6 reps + functional label) <= 0.007: printed 1, recomputed 1
+PASS  closed form, max gap (in-corpus paragraph) <= 0.007: printed 1, recomputed 1
+PASS  TransE leak acc: printed 0.54, recomputed 0.53825
+PASS  majority class: printed 0.39, recomputed 0.393387
+PASS  matched real low: printed 0.57, recomputed 0.574514
+PASS  matched real high: printed 0.84, recomputed 0.835694
+PASS  overstatement low: printed 0.02, recomputed 0.0240434
+PASS  overstatement high: printed 0.07, recomputed 0.0696211
+PASS  functional n: printed 172, recomputed 172
+PASS  functional n (supp): printed 172, recomputed 172
+PASS  functional not name-matched: printed 155, recomputed 155
+PASS  functional only in OL: printed 172, recomputed 172
+PASS  functional pooled real: printed 0.921, recomputed 0.92099
+PASS  functional ref: printed 0.765, recomputed 0.764588
+PASS  functional closed form: printed 0.772, recomputed 0.772059
+PASS  functional matched real: printed 0.818, recomputed 0.818459
+PASS  functional matched ref: printed 0.495, recomputed 0.495272
+PASS  functional overstatement: printed 0.10, recomputed 0.102532
+PASS  raw degree on functional: printed 0.70, recomputed 0.701472
+PASS  name model on functional: printed 0.43, recomputed 0.432961
+PASS  Table 5 caption rate Panama: printed 5.0, recomputed 5.0012
+PASS  Table 5 caption rate Paradise: printed 0.9, recomputed 0.905629
+PASS  Table 5 caption rate Offshore: printed 0.9, recomputed 0.947822
+PASS  Table 5 caption rate Bahamas: printed 2.7, recomputed 2.65378
+PASS  held-out Panama pooled real: printed 0.460, recomputed 0.459693
+PASS  held-out Panama pooled ref: printed 0.359, recomputed 0.359227
+PASS  held-out Panama pooled p: printed 0.01, recomputed 0.01
+PASS  held-out Panama tested fit: printed 0.689, recomputed 0.688798
+PASS  held-out Panama balanced median: printed 0.689, recomputed 0.688536
+PASS  held-out Panama bal ref mean,q975: printed 0.495, recomputed 0.49546
+PASS  held-out Panama Holm p: printed 0.008, recomputed 0.008
+PASS  held-out Panama median Holm p: printed 0.04, recomputed 0.04
+PASS  held-out Panama q97.5: printed 0.649, recomputed 0.649157
+PASS  held-out Panama two-sided p: printed 0.002, recomputed 0.002
+PASS  held-out Panama median = summary median: printed 0.689, recomputed 0.688536
+PASS  held-out Paradise pooled real: printed 0.721, recomputed 0.72104
+PASS  held-out Paradise pooled ref: printed 0.683, recomputed 0.682705
+PASS  held-out Paradise pooled p: printed 0.01, recomputed 0.01
+PASS  held-out Paradise tested fit: printed 0.697, recomputed 0.696676
+PASS  held-out Paradise balanced median: printed 0.694, recomputed 0.693694
+PASS  held-out Paradise bal ref mean,q975: printed 0.499, recomputed 0.499458
+PASS  held-out Paradise Holm p: printed 0.008, recomputed 0.008
+PASS  held-out Paradise median Holm p: printed 0.04, recomputed 0.04
+PASS  held-out Paradise q97.5: printed 0.665, recomputed 0.664738
+PASS  held-out Paradise two-sided p: printed 0.002, recomputed 0.002
+PASS  held-out Paradise median = summary median: printed 0.694, recomputed 0.693694
+PASS  held-out Offshore pooled real: printed 0.641, recomputed 0.640587
+PASS  held-out Offshore pooled ref: printed 0.536, recomputed 0.535591
+PASS  held-out Offshore pooled p: printed 0.01, recomputed 0.01
+PASS  held-out Offshore tested fit: printed 0.657, recomputed 0.656741
+PASS  held-out Offshore balanced median: printed 0.653, recomputed 0.653377
+PASS  held-out Offshore bal ref mean,q975: printed 0.490, recomputed 0.489959
+PASS  held-out Offshore Holm p: printed 0.016, recomputed 0.016
+PASS  held-out Offshore median Holm p: printed 0.04, recomputed 0.04
+PASS  held-out Offshore q97.5: printed 0.625, recomputed 0.625108
+PASS  held-out Offshore two-sided p: printed 0.008, recomputed 0.008
+PASS  held-out Offshore median = summary median: printed 0.653, recomputed 0.653377
+PASS  held-out Bahamas pooled real: printed 0.576, recomputed 0.576227
+PASS  held-out Bahamas pooled ref: printed 0.491, recomputed 0.490684
+PASS  held-out Bahamas pooled p: printed 0.01, recomputed 0.01
+PASS  held-out Bahamas tested fit: printed 0.576, recomputed 0.576054
+PASS  held-out Bahamas balanced median: printed 0.575, recomputed 0.57547
+PASS  held-out Bahamas bal ref mean,q975: printed 0.498, recomputed 0.497985
+PASS  held-out Bahamas Holm p: printed 0.034, recomputed 0.034
+PASS  held-out Bahamas median Holm p: printed 0.04, recomputed 0.04
+PASS  held-out Bahamas q97.5: printed 0.573, recomputed 0.573256
+PASS  held-out Bahamas two-sided p: printed 0.034, recomputed 0.034
+PASS  held-out Bahamas median = summary median: printed 0.575, recomputed 0.57547
+PASS  Holm recomputed (largest): printed 0.034, recomputed 0.034
+PASS  Holm recomputed (third): printed 0.016, recomputed 0.016
+PASS  Panama inverted fit: printed 0.461, recomputed 0.460566
+PASS  Panama other nine low: printed 0.686, recomputed 0.686479
+PASS  Panama other nine high: printed 0.691, recomputed 0.691418
+PASS  Panama other nine range: printed 1, recomputed 1
+PASS  balanced positives low: printed 670, recomputed 670
+PASS  balanced positives high: printed 988, recomputed 988
+PASS  held-out reference range low: printed 0.36, recomputed 0.359227
+PASS  held-out reference range high: printed 0.68, recomputed 0.682705
+PASS  source-only Panama: printed 0.35, recomputed 0.347421
+PASS  source-only Paradise: printed 0.69, recomputed 0.691246
+PASS  source-only Offshore: printed 0.53, recomputed 0.5341
+PASS  source-only Bahamas: printed 0.49, recomputed 0.490826
+PASS  ordinary permutation low: printed 0.45, recomputed 0.449381
+PASS  ordinary permutation high: printed 0.56, recomputed 0.555768
+PASS  Paradise pooled (text): printed 0.721, recomputed 0.72104
+PASS  factorised Panama (supp): printed 0.458, recomputed 0.458282
+PASS  pooled avg Panama (supp): printed 0.460, recomputed 0.46004
+PASS  supplement factor row Panama: printed 0.458, recomputed 0.458282
+PASS  supplement binormal Panama: printed 0.507, recomputed 0.506966
+PASS  factorised Paradise (supp): printed 0.725, recomputed 0.724552
+PASS  pooled avg Paradise (supp): printed 0.725, recomputed 0.725027
+PASS  supplement factor row Paradise: printed 0.725, recomputed 0.724552
+PASS  supplement binormal Paradise: printed 0.703, recomputed 0.703036
+PASS  factorised Offshore (supp): printed 0.625, recomputed 0.62484
+PASS  pooled avg Offshore (supp): printed 0.637, recomputed 0.637388
+PASS  supplement factor row Offshore: printed 0.625, recomputed 0.62484
+PASS  supplement binormal Offshore: printed 0.621, recomputed 0.620791
+PASS  factorised Bahamas (supp): printed 0.578, recomputed 0.578308
+PASS  pooled avg Bahamas (supp): printed 0.576, recomputed 0.575998
+PASS  supplement factor row Bahamas: printed 0.578, recomputed 0.578308
+PASS  supplement binormal Bahamas: printed 0.555, recomputed 0.555288
+PASS  factor AUC(r-hat) within 0.005 of main source-only: printed 1, recomputed 1
+PASS  supplement factor row tail Panama: printed 0.507, recomputed 0.506966
+PASS  supplement factor row tail Paradise: printed 0.703, recomputed 0.703036
+PASS  supplement factor row tail Offshore: printed 0.621, recomputed 0.620791
+PASS  supplement factor row tail Bahamas: printed 0.555, recomputed 0.555288
+PASS  factorised within 0.013 of pooled (main): printed 0.013, recomputed 0.0125481
+PASS  Panama weight log r: printed 0.89, recomputed 0.885849
+PASS  Panama pull (supp): printed -0.108, recomputed -0.108033
+PASS  Panama push (supp): printed 0.113, recomputed 0.1129
+PASS  e_s Panama: printed 1.15, recomputed 1.14774
+PASS  e_s Paradise: printed 0.89, recomputed 0.890837
+PASS  e_s Offshore: printed 0.93, recomputed 0.927714
+PASS  e_s Bahamas: printed 0.92, recomputed 0.922098
+PASS  e spread (supp): printed 1.29, recomputed 1.28838
+PASS  in-corpus ref adjusted: printed 0.634, recomputed 0.634389
+PASS  in-corpus ref actual: printed 0.653, recomputed 0.652735
+PASS  winsorised adjusted ref: printed 0.633, recomputed 0.632502
+PASS  winsorised e Panama: printed 1.16, recomputed 1.15953
+PASS  adjusted rate Panama: printed 0.044, recomputed 0.0435745
+PASS  held-out plug-in actual Panama: printed 0.344, recomputed 0.34423
+PASS  held-out plug-in adjusted Panama: printed 0.323, recomputed 0.322907
+PASS  winsorised e Paradise: printed 0.87, recomputed 0.874396
+PASS  adjusted rate Paradise: printed 0.010, recomputed 0.010166
+PASS  held-out plug-in actual Paradise: printed 0.694, recomputed 0.694491
+PASS  held-out plug-in adjusted Paradise: printed 0.694, recomputed 0.693925
+PASS  winsorised e Offshore: printed 0.93, recomputed 0.928332
+PASS  adjusted rate Offshore: printed 0.010, recomputed 0.0102167
+PASS  held-out plug-in actual Offshore: printed 0.537, recomputed 0.536871
+PASS  held-out plug-in adjusted Offshore: printed 0.537, recomputed 0.536635
+PASS  winsorised e Bahamas: printed 0.96, recomputed 0.95608
+PASS  adjusted rate Bahamas: printed 0.029, recomputed 0.0287798
+PASS  held-out plug-in actual Bahamas: printed 0.490, recomputed 0.490448
+PASS  held-out plug-in adjusted Bahamas: printed 0.490, recomputed 0.490488
+PASS  half log e spread: printed 0.13, recomputed 0.126693
+PASS  bound table TransE: printed 0.624, recomputed 0.623664
+PASS  bound table Connectivity (3): printed 0.833, recomputed 0.833436
+PASS  bound table Structural (8): printed 0.859, recomputed 0.858784
+PASS  bound table Structural + graph (12): printed 0.927, recomputed 0.926791
+PASS  bound table RDF2Vec: printed 0.976, recomputed 0.976425
+PASS  bound structural (text): printed 0.86, recomputed 0.858784
+PASS  observed structural: printed 0.65, recomputed 0.650551
+PASS  Prop. 3 sampling term < 0.004 (eta=0.05, n=60000): printed 1, recomputed 1
+PASS  learned row Panama: printed 0.484, recomputed 0.484288
+PASS  learned row Paradise: printed 0.500, recomputed 0.50037
+PASS  learned row Offshore: printed 0.541, recomputed 0.541047
+PASS  learned row Bahamas: printed 0.519, recomputed 0.519293
+PASS  TransE references within 0.06 of 0.5: printed 0.06, recomputed 0.0563289
+PASS  no TransE pooled score departs (min one-sided p >= 0.27): printed 1, recomputed 1
+PASS  R-GCN balanced draws (not testable): printed 9, recomputed 9
+PASS  R-GCN min two-sided p with 9 draws: printed 0.2, recomputed 0.2
+PASS  RDF2Vec smallest training p2 (main): printed 0.27, recomputed 0.27
+PASS  RDF2Vec heldout separates three leaks: printed 3, recomputed 3
+PASS  RDF2Vec all inconclusive: printed 1, recomputed 1
+PASS  TransE smallest Holm: printed 0.12, recomputed 0.12
+PASS  learned balanced draws: printed 199, recomputed 199
+PASS  supp learned row transe Panama: printed 0.505, recomputed 0.504902
+PASS  supp learned row transe Paradise: printed 0.478, recomputed 0.477539
+PASS  supp learned row transe Offshore: printed 0.498, recomputed 0.49812
+PASS  supp learned row transe Bahamas: printed 0.482, recomputed 0.48197
+PASS  supp learned row rdf2vec Panama: printed 0.562, recomputed 0.562315
+PASS  supp learned row rdf2vec Paradise: printed 0.499, recomputed 0.498833
+PASS  supp learned row rdf2vec Offshore: printed 0.527, recomputed 0.527331
+PASS  supp learned row rdf2vec Bahamas: printed 0.577, recomputed 0.576551
+PASS  TransE Paradise p2 (supp): printed 0.03, recomputed 0.03
+PASS  RDF2Vec pA2 < 0.005 three leaks (supp): printed 1, recomputed 1
+PASS  R-GCN below 0.5 on three leaks: printed 3, recomputed 3
+PASS  AP reference Panama: printed 0.197, recomputed 0.197153
+PASS  AP base rate Panama: printed 0.22, recomputed 0.219527
+PASS  AP reference Paradise: printed 0.079, recomputed 0.0792911
+PASS  AP base rate Paradise: printed 0.047, recomputed 0.0469156
+PASS  rule table shortcut present / against chance: printed 62, recomputed 62
+PASS  rule table shortcut present / 2-SD rule, 9 draws: printed 86, recomputed 86
+PASS  rule table shortcut present / 2-SD rule, 39 draws: printed 86, recomputed 86
+PASS  rule table shortcut present / permutation, 0.025 per tail, 39 draws: printed 87, recomputed 87
+PASS  rule table all settings / against chance: printed 268, recomputed 268
+PASS  rule table all settings / 2-SD rule, 9 draws: printed 281, recomputed 281
+PASS  rule table all settings / 2-SD rule, 39 draws: printed 291, recomputed 291
+PASS  rule table all settings / permutation, 0.025 per tail, 39 draws: printed 290, recomputed 290
+PASS  settings: printed 324, recomputed 324
+PASS  shortcut present: printed 97, recomputed 97
+PASS  fitted flags among them: printed 94, recomputed 94
+PASS  other flags: printed 19, recomputed 19
+PASS  of which no separation and high rate ratio: printed 18, recomputed 18
+PASS  no-signal targets: printed 108, recomputed 108
+PASS  2-SD 9 draws false calls (%): printed 13.9, recomputed 13.8889
+PASS  permutation 39 draws false calls (%): printed 6.5, recomputed 6.48148
+PASS  permutation 39 draws false calls (n): printed 7, recomputed 7
+PASS  median gap q97.5 vs mean+2SD: printed 0.006, recomputed 0.00557156
+PASS  first round: wrong direction vs chance (main): printed 4, recomputed 4
+PASS  sim2 targets: printed 936, recomputed 936
+PASS  sim2 settings: printed 108, recomputed 108
+PASS  sim2 absent training: printed 6.1, recomputed 6.11111
+PASS  sim2 absent heldout: printed 5.4, recomputed 5.37037
+PASS  sim2 absent rule: printed 4.4, recomputed 4.44444
+PASS  sim2 row absent: printed 540, recomputed 540
+PASS  sim2 no wrong-direction claim n/a absent: printed 1, recomputed 1
+PASS  sim2 rule <= 5% absent: printed 1, recomputed 1
+PASS  sim2 specific training: printed 2.8, recomputed 2.77778
+PASS  sim2 specific heldout: printed 22.8, recomputed 22.7778
+PASS  sim2 specific rule: printed 2.8, recomputed 2.77778
+PASS  sim2 row specific: printed 180, recomputed 180
+PASS  sim2 no wrong-direction claim n/a specific: printed 1, recomputed 1
+PASS  sim2 rule <= 5% specific: printed 1, recomputed 1
+PASS  sim2 shared training: printed 86.1, recomputed 86.1111
+PASS  sim2 shared heldout: printed 88.0, recomputed 87.963
+PASS  sim2 shared rule: printed 84.3, recomputed 84.2593
+PASS  sim2 row shared: printed 108, recomputed 108
+PASS  sim2 no wrong direction shared: printed 0, recomputed 0
+PASS  sim2 reversed training: printed 85.2, recomputed 85.1852
+PASS  sim2 reversed heldout: printed 87.0, recomputed 87.037
+PASS  sim2 reversed rule: printed 84.3, recomputed 84.2593
+PASS  sim2 row reversed: printed 108, recomputed 108
+PASS  sim2 no wrong direction reversed: printed 0, recomputed 0
+PASS  sim2 training absent (main): printed 6.1, recomputed 6.11111
+PASS  sim2 training absent with shortcut (main): printed 7.1, recomputed 7.08333
+PASS  sim2 heldout different (main): printed 22.8, recomputed 22.7778
+PASS  sim2 rule shared/reversed (main): printed 84.3, recomputed 84.2593
+PASS  sim2 rule reversed equal: printed 1, recomputed 1
+PASS  sim2 training power low: printed 85, recomputed 85.1852
+PASS  sim2 training power high: printed 86, recomputed 86.1111
+PASS  sim2 by delta 0.25: printed 9, recomputed 9
+PASS  sim2 by delta 0.5: printed 12, recomputed 12
+PASS  sim2 by delta 1.0: printed 12, recomputed 12
+PASS  sim2 by shortcut True: printed 17, recomputed 17
+PASS  sim2 by shortcut False: printed 16, recomputed 16
+PASS  sim2 directions absent: printed 16, recomputed 16
+PASS  sim2 directions specific: printed 2, recomputed 2
+PASS  sim2 directions shared: printed 93, recomputed 93
+PASS  sim2 directions reversed: printed 0, recomputed 0
+PASS  simulation direction/calibration (original manuscript) 0.68: 0.68 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.51: 0.51 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.36: 0.36 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.76: 0.76 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.73--0.74: 0.73–0.74 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.49--0.51: 0.49–0.51 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.54: 0.54 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.50: 0.50 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.37: 0.37 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.70: 0.70 (original manuscript)
+PASS  simulation direction/calibration (original manuscript) 0.032--0.072: 0.032–0.072 (original manuscript)
+PASS  calibration single-draw rejection 0.032: 0.032 (original manuscript)
+PASS  calibration single-draw rejection 0.072: 0.072 (original manuscript)
+PASS  label precision 0.98: 0.98 (original manuscript)
+PASS  label precision 1.00: 1.00 (original manuscript)
+PASS  label precision 0.84: 0.84 (original manuscript)
+PASS  label precision 0.76: 0.76 (original manuscript)
+PASS  label precision 0.90: 0.90 (original manuscript)
+PASS  label check sample 65: 65 (original manuscript)
+PASS  label check sample 400: 400 (original manuscript)
+PASS  labelled rate Panama (supplement): printed 0.050, recomputed 0.050012
+PASS  labelled rate Paradise (supplement): printed 0.009, recomputed 0.00905629
+PASS  labelled rate Offshore (supplement): printed 0.009, recomputed 0.00947822
+PASS  labelled rate Bahamas (supplement): printed 0.027, recomputed 0.0265378
+PASS  Thm 2 closed form (sim): printed 0.6582, recomputed 0.6582
+PASS  Thm 2 brute force (sim): printed 0.6566, recomputed 0.6566
+PASS  Prop 2 reference (sim): printed 0.658, recomputed 0.6582
+PASS  Prop 2 bound (sim): printed 0.764, recomputed 0.7635
+PASS  Prop 2 TV form equal: printed 1, recomputed 1
+PASS  Thm 4(a) pooled: printed 0.6608, recomputed 0.6608
+PASS  Thm 4(a) r*g: printed 0.6608, recomputed 0.6608
+PASS  Thm 4(c) max delta: printed 0.028, recomputed 0.0283
+PASS  Thm 4(c) eps: printed 0.089, recomputed 0.0887
+PASS  Thm 4(c) |AUC(bal)-AUC(g)|: printed 0.00002, recomputed 2e-05
+PASS  Thm 4(d) theta 0.1 lhs: printed 0.0340, recomputed 0.034
+PASS  Thm 4(d) theta 0.1 rhs: printed 0.0344, recomputed 0.0344
+PASS  Thm 4(d) theta 0.2 lhs: printed 0.0354, recomputed 0.0354
+PASS  Thm 4(d) theta 0.2 rhs: printed 0.0343, recomputed 0.0343
+PASS  general case rank corr: printed 1.0000, recomputed 1
+PASS  g range low: printed 0.54, recomputed 0.543
+PASS  g range high: printed 1.90, recomputed 1.9
+PASS  Prop 3 noise 0.02 error: printed 0.009, recomputed 0.0085
+PASS  Prop 3 noise 0.02 bound: printed 0.09, recomputed 0.0924
+PASS  Prop 3 noise 0.05 error: printed 0.002, recomputed 0.0018
+PASS  Prop 3 noise 0.05 bound: printed 0.14, recomputed 0.1439
+PASS  Prop 3 noise 0.1 error: printed 0.000, recomputed 0.0003
+PASS  Prop 3 noise 0.1 bound: printed 0.32, recomputed 0.3226
+PASS  Cor 3 false calls (%): printed 5.0, recomputed 5
+PASS  Cor 3 s.e. (%): printed 1.3, recomputed 1.3
+PASS  Elliptic main sentence present: printed 1, recomputed 1
+PASS  Elliptic (supplement) 0.025: 0.025 (original manuscript)
+PASS  Elliptic (supplement) 0.05: 0.05 (original manuscript)
+PASS  Elliptic (supplement) 0.10: 0.10 (original manuscript)
+PASS  Elliptic (supplement) 0.14: 0.14 (original manuscript)
+PASS  Elliptic (supplement) 0.27: 0.27 (original manuscript)
+PASS  Elliptic (supplement) 0.30: 0.30 (original manuscript)
+PASS  Elliptic (supplement) 0.31: 0.31 (original manuscript)
+PASS  Elliptic (supplement) 0.33: 0.33 (original manuscript)
+PASS  Elliptic (supplement) 0.34: 0.34 (original manuscript)
+PASS  Elliptic (supplement) 0.36: 0.36 (original manuscript)
+PASS  Elliptic (supplement) 0.39: 0.39 (original manuscript)
+PASS  Elliptic (supplement) 0.41: 0.41 (original manuscript)
+PASS  Elliptic (supplement) 0.42: 0.42 (original manuscript)
+PASS  Elliptic (supplement) 0.45: 0.45 (original manuscript)
+PASS  Elliptic (supplement) 0.46: 0.46 (original manuscript)
+PASS  Elliptic (supplement) 0.47: 0.47 (original manuscript)
+PASS  Elliptic (supplement) 0.48: 0.48 (original manuscript)
+PASS  Elliptic (supplement) 0.5: 0.5 (original manuscript)
+PASS  Elliptic (supplement) 0.50: 0.50 (original manuscript)
+PASS  Elliptic (supplement) 0.51: 0.51 (original manuscript)
+PASS  Elliptic (supplement) 0.52: 0.52 (original manuscript)
+PASS  Elliptic (supplement) 0.53: 0.53 (original manuscript)
+PASS  Elliptic (supplement) 0.58: 0.58 (original manuscript)
+PASS  Elliptic (supplement) 0.59: 0.59 (original manuscript)
+PASS  Elliptic (supplement) 0.61: 0.61 (original manuscript)
+PASS  Elliptic (supplement) 0.62: 0.62 (original manuscript)
+PASS  Elliptic (supplement) 0.63: 0.63 (original manuscript)
+PASS  Elliptic (supplement) 0.64: 0.64 (original manuscript)
+PASS  Elliptic (supplement) 0.65: 0.65 (original manuscript)
+PASS  Elliptic (supplement) 0.66: 0.66 (original manuscript)
+PASS  Elliptic (supplement) 0.68: 0.68 (original manuscript)
+PASS  Elliptic (supplement) 0.69: 0.69 (original manuscript)
+PASS  Elliptic (supplement) 0.70: 0.70 (original manuscript)
+PASS  Elliptic (supplement) 0.71: 0.71 (original manuscript)
+PASS  Elliptic (supplement) 0.73: 0.73 (original manuscript)
+PASS  Elliptic (supplement) 0.74: 0.74 (original manuscript)
+PASS  Elliptic (supplement) 0.76: 0.76 (original manuscript)
+PASS  Elliptic (supplement) 0.780: 0.780 (original manuscript)
+PASS  Elliptic (supplement) 0.853: 0.853 (original manuscript)
+PASS  Elliptic (supplement) 0.878: 0.878 (original manuscript)
+PASS  Elliptic (supplement) 0.886: 0.886 (original manuscript)
+PASS  Elliptic (supplement) 0.89: 0.89 (original manuscript)
+PASS  Elliptic (supplement) 0.915: 0.915 (original manuscript)
+PASS  Elliptic (supplement) 0.93: 0.93 (original manuscript)
+PASS  Elliptic (supplement) 0.933: 0.933 (original manuscript)
+PASS  Elliptic (supplement) 0.949: 0.949 (original manuscript)
+PASS  Elliptic (supplement) 0.952: 0.952 (original manuscript)
+PASS  Elliptic (supplement) 0.959: 0.959 (original manuscript)
+PASS  Elliptic (supplement) 0.961: 0.961 (original manuscript)
+PASS  Elliptic (supplement) 0.962: 0.962 (original manuscript)
+PASS  Elliptic (supplement) 0.973: 0.973 (original manuscript)
+PASS  Elliptic (supplement) 0.980: 0.980 (original manuscript)
+PASS  Elliptic (supplement) 0.984: 0.984 (original manuscript)
+PASS  Elliptic (supplement) 0.985: 0.985 (original manuscript)
+PASS  Elliptic (supplement) 0.987: 0.987 (original manuscript)
+PASS  Elliptic (supplement) 0.988: 0.988 (original manuscript)
+PASS  Elliptic (supplement) 0.989: 0.989 (original manuscript)
+PASS  Elliptic (supplement) 0.99: 0.99 (original manuscript)
+PASS  Elliptic (supplement) 0.990: 0.990 (original manuscript)
+PASS  Elliptic (supplement) 0.991: 0.991 (original manuscript)
+PASS  Elliptic (supplement) 0.993: 0.993 (original manuscript)
+PASS  Elliptic (supplement) 0.995: 0.995 (original manuscript)
+PASS  Elliptic (supplement) 0.998: 0.998 (original manuscript)
+PASS  Elliptic (supplement) 157{,}205: 157,205 (original manuscript)
+PASS  Elliptic (supplement) 1{,}102: 1,102 (original manuscript)
+PASS  Elliptic (supplement) 2.2: 2.2 (original manuscript)
+PASS  Elliptic (supplement) 2.5: 2.5 (original manuscript)
+PASS  Elliptic (supplement) 203{,}769: 203,769 (original manuscript)
+PASS  Elliptic (supplement) 234{,}355: 234,355 (original manuscript)
+PASS  Elliptic (supplement) 3.2: 3.2 (original manuscript)
+PASS  Elliptic (supplement) 4.37: 4.37 (original manuscript)
+PASS  Elliptic (supplement) 42{,}019: 42,019 (original manuscript)
+PASS  Elliptic (supplement) 4{,}545: 4,545 (original manuscript)
+PASS  Elliptic (supplement) 97.5: 97.5 (original manuscript)
+PASS  abstract reference range low: printed 0.56, recomputed 0.556329
+PASS  abstract reference range high: printed 0.69, recomputed 0.694092
+PASS  abstract Panama pooled: printed 0.46, recomputed 0.459693
+PASS  abstract Panama transfer reading: printed 1, recomputed 1
+PASS  intro example real: printed 0.762, recomputed 0.762477
+PASS  intro example reference: printed 0.651, recomputed 0.650551
+PASS  R-GCN in-corpus (text): printed 0.851, recomputed 0.850638
+PASS  OS checksums verified: printed 1, recomputed 1
+PASS  OS sources in collection: printed 490, recomputed 490
+PASS  OS datasets asserting sanction: printed 80, recomputed 80
+PASS  OS first cohort persons: printed 586{,}473, recomputed 586473
+PASS  OS first cohort positives (supp): printed 10{,}968, recomputed 10968
+PASS  OS first SPARQL audit EGRUL persons = table: printed 70199, recomputed 70199
+PASS  OS first SPARQL audit EGRUL positives = table: printed 4949, recomputed 4949
+PASS  OS first supplement row (i) EGRUL: printed 0.376, recomputed 0.376483
+PASS  OS first supplement row (ii) EGRUL: printed 0.401, recomputed 0.400885
+PASS  OS first supplement row (iii) EGRUL: printed 0.564, recomputed 0.563659
+PASS  OS first SPARQL audit SAM persons = table: printed 85418, recomputed 85418
+PASS  OS first SPARQL audit SAM positives = table: printed 3796, recomputed 3796
+PASS  OS first supplement row (i) SAM: printed 0.500, recomputed 0.5
+PASS  OS first supplement row (ii) SAM: printed 0.500, recomputed 0.5
+PASS  OS first supplement row (iii) SAM: printed 0.500, recomputed 0.500345
+PASS  OS first SPARQL audit Wikidata persons = table: printed 420023, recomputed 420023
+PASS  OS first SPARQL audit Wikidata positives = table: printed 1302, recomputed 1302
+PASS  OS first supplement row (i) Wikidata: printed 0.535, recomputed 0.535147
+PASS  OS first supplement row (ii) Wikidata: printed 0.530, recomputed 0.529809
+PASS  OS first supplement row (iii) Wikidata: printed 0.483, recomputed 0.483131
+PASS  OS first SPARQL audit UK disq. persons = table: printed 6676, recomputed 6676
+PASS  OS first SPARQL audit UK disq. positives = table: printed 633, recomputed 633
+PASS  OS first supplement row (i) UK disq.: printed 0.006, recomputed 0.00617243
+PASS  OS first supplement row (ii) UK disq.: printed 0.003, recomputed 0.00284627
+PASS  OS first supplement row (iii) UK disq.: printed 0.771, recomputed 0.771285
+PASS  OS first SPARQL audit ACF persons = table: printed 4157, recomputed 4157
+PASS  OS first SPARQL audit ACF positives = table: printed 288, recomputed 288
+PASS  OS first supplement row (i) ACF: printed 0.500, recomputed 0.5
+PASS  OS first supplement row (ii) ACF: printed 0.500, recomputed 0.5
+PASS  OS first supplement row (iii) ACF: printed 0.469, recomputed 0.469237
+PASS  OS first in-corpus row (i): printed 0.830, recomputed 0.829891
+PASS  OS first in-corpus row (ii): printed 0.906, recomputed 0.906119
+PASS  OS first in-corpus row (iii): printed 0.878, recomputed 0.877895
+PASS  OS first no reading anywhere: printed 1, recomputed 1
+PASS  OS SAM address share pos (%): printed 52, recomputed 52.3973
+PASS  OS SAM address share unl (%): printed 3.5, recomputed 3.53214
+PASS  OS first S-graph edges: printed 705{,}563, recomputed 705563
+PASS  OS first occupancy: printed 409{,}586, recomputed 409586
+PASS  OS first quads (M): printed 1.19, recomputed 1.1916
+PASS  OS first majority class: printed 0.716, recomputed 0.716185
+PASS  OS first RDF2Vec UK pooled: printed 0.77, recomputed 0.771285
+PASS  OS first RDF2Vec UK null: printed 0.14, recomputed 0.139697
+PASS  wd_curated: Wikidata positives in first cohort: printed 1{,}302, recomputed 1302
+PASS  OS cohort persons: printed 130{,}595, recomputed 130595
+PASS  OS cohort positives: printed 5{,}471, recomputed 5471
+PASS  OS rate low (%): printed 0.72, recomputed 0.715347
+PASS  OS rate high (%): printed 6.1, recomputed 6.13374
+PASS  OS sources = rule: printed 1, recomputed 1
+PASS  OS SPARQL EGRUL persons: printed 60{,}909, recomputed 60909
+PASS  OS SPARQL EGRUL positives: printed 3{,}736, recomputed 3736
+PASS  OS table EGRUL rate (%): printed 6.13, recomputed 6.13374
+PASS  OS table EGRUL positives: printed 3{,}736, recomputed 3736
+PASS  OS table EGRUL pooled: printed 0.529, recomputed 0.529065
+PASS  OS table EGRUL balanced median: printed 0.455, recomputed 0.455046
+PASS  OS supplement row (i) EGRUL: printed 0.529, recomputed 0.529065
+PASS  OS supplement row (ii) EGRUL: printed 0.556, recomputed 0.555854
+PASS  OS supplement row (iii) EGRUL: printed 0.356, recomputed 0.356306
+PASS  OS SPARQL SAM persons: printed 16{,}227, recomputed 16227
+PASS  OS SPARQL SAM positives: printed 914, recomputed 914
+PASS  OS table SAM rate (%): printed 5.63, recomputed 5.63259
+PASS  OS table SAM positives: printed 914, recomputed 914
+PASS  OS table SAM pooled: printed 0.500, recomputed 0.5
+PASS  OS table SAM balanced median: printed 0.500, recomputed 0.5
+PASS  OS supplement row (i) SAM: printed 0.500, recomputed 0.5
+PASS  OS supplement row (ii) SAM: printed 0.500, recomputed 0.5
+PASS  OS supplement row (iii) SAM: printed 0.485, recomputed 0.485098
+PASS  OS SPARQL Wikidata persons: printed 43{,}056, recomputed 43056
+PASS  OS SPARQL Wikidata positives: printed 308, recomputed 308
+PASS  OS table Wikidata rate (%): printed 0.72, recomputed 0.715347
+PASS  OS table Wikidata positives: printed 308, recomputed 308
+PASS  OS table Wikidata pooled: printed 0.448, recomputed 0.448093
+PASS  OS table Wikidata balanced median: printed 0.435, recomputed 0.435492
+PASS  OS supplement row (i) Wikidata: printed 0.448, recomputed 0.448093
+PASS  OS supplement row (ii) Wikidata: printed 0.538, recomputed 0.538366
+PASS  OS supplement row (iii) Wikidata: printed 0.432, recomputed 0.431643
+PASS  OS SPARQL UK disq. persons: printed 6{,}365, recomputed 6365
+PASS  OS SPARQL UK disq. positives: printed 326, recomputed 326
+PASS  OS table UK disq. rate (%): printed 5.12, recomputed 5.12176
+PASS  OS table UK disq. positives: printed 326, recomputed 326
+PASS  OS table UK disq. pooled: printed 0.025, recomputed 0.0252028
+PASS  OS table UK disq. balanced median: printed 0.159, recomputed 0.159463
+PASS  OS supplement row (i) UK disq.: printed 0.025, recomputed 0.0252028
+PASS  OS supplement row (ii) UK disq.: printed 0.003, recomputed 0.00281504
+PASS  OS supplement row (iii) UK disq.: printed 0.045, recomputed 0.0446007
+PASS  OS SPARQL ACF persons: printed 4{,}038, recomputed 4038
+PASS  OS SPARQL ACF positives: printed 187, recomputed 187
+PASS  OS table ACF rate (%): printed 4.63, recomputed 4.63101
+PASS  OS table ACF positives: printed 187, recomputed 187
+PASS  OS table ACF pooled: printed 0.500, recomputed 0.5
+PASS  OS table ACF balanced median: printed 0.500, recomputed 0.5
+PASS  OS supplement row (i) ACF: printed 0.500, recomputed 0.5
+PASS  OS supplement row (ii) ACF: printed 0.500, recomputed 0.5
+PASS  OS supplement row (iii) ACF: printed 0.499, recomputed 0.498621
+PASS  OS closed form (i): printed 0.621, recomputed 0.620981
+PASS  OS supplement in-corpus row (i): printed 0.771, recomputed 0.771206
+PASS  main Table 3 OS row (i): printed 0.771, recomputed 0.771206
+PASS  OS closed form (ii): printed 0.653, recomputed 0.653086
+PASS  OS supplement in-corpus row (ii): printed 0.880, recomputed 0.879955
+PASS  main Table 3 OS row (ii): printed 0.880, recomputed 0.879955
+PASS  OS closed form (iii): printed 0.624, recomputed 0.624186
+PASS  OS supplement in-corpus row (iii): printed 0.848, recomputed 0.848115
+PASS  main Table 3 OS row (iii): printed 0.848, recomputed 0.848115
+PASS  OS closed form within 0.008: printed 1, recomputed 1
+PASS  OS share of margin low (%): printed 34, recomputed 33.5965
+PASS  OS share of margin high (%): printed 44, recomputed 43.8996
+PASS  OS held-out ref low: printed 0.021, recomputed 0.0209915
+PASS  OS held-out ref high: printed 0.51, recomputed 0.512723
+PASS  OS UK pooled: printed 0.025, recomputed 0.0252028
+PASS  OS UK reference: printed 0.021, recomputed 0.0209915
+PASS  abstract OS: printed 0.025, recomputed 0.0252028
+PASS  OS UK ref range: printed 1, recomputed 1
+PASS  OS Wikidata lower p: printed 0.01, recomputed 0.01
+PASS  OS smallest Holm p: printed 0.10, recomputed 0.1
+PASS  OS UK balanced null low: printed 0.01, recomputed 0.0115085
+PASS  OS UK balanced null high: printed 0.99, recomputed 0.994709
+PASS  OS no reading anywhere: printed 1, recomputed 1
+PASS  OS SAM/ACF constant: printed 1, recomputed 1
+PASS  OS Wikidata isolated (%): printed 99.8, recomputed 99.7933
+PASS  OS Wikidata with relations labelled (%): printed 52, recomputed 51.6854
+PASS  OS UK sanctioned isolated (%): printed 100, recomputed 100
+PASS  OS UK others with relationship (%): printed 99.4, recomputed 99.437
+PASS  OS UK others isolated (%): printed 0.6, recomputed 0.563007
+PASS  OS UK isolated labelled: printed 0.91, recomputed 0.905556
+PASS  OS UK isolated n: printed 360, recomputed 360
+PASS  OS flow persons: printed 1{,}144{,}745, recomputed 1.14474e+06
+PASS  OS flow no_nonlabel: printed 14{,}976, recomputed 14976
+PASS  OS flow multi: printed 728{,}552, recomputed 728552
+PASS  OS flow single_other: printed 270{,}622, recomputed 270622
+PASS  OS flow cohort: printed 130{,}595, recomputed 130595
+PASS  OS non-label datasets: printed 350, recomputed 350
+PASS  OS quads (new): printed 2{,}435{,}390, recomputed 2.43539e+06
+PASS  OS new majority class: printed 0.466, recomputed 0.466396
+PASS  OS candidate ext_ru_egrul: printed 3736, recomputed 3736
+PASS  OS candidate us_sam_exclusions: printed 914, recomputed 914
+PASS  OS candidate ua_war_sanctions: printed 608, recomputed 608
+PASS  OS candidate gb_coh_disqualified: printed 326, recomputed 326
+PASS  OS candidate wikidata: printed 308, recomputed 308
+PASS  OS candidate ru_acf_bribetakers: printed 187, recomputed 187
+PASS  OS candidate tw_shtc: printed 95, recomputed 95
+PASS  OS candidate ext_us_ofac_press_releases: printed 79, recomputed 79
+PASS  OS candidate ext_ge_company_registry: printed 48, recomputed 48
+PASS  OS candidate in_nia_wanted: printed 23, recomputed 23
+PASS  OS candidate interpol_red_notices: printed 19, recomputed 19
+PASS  OS candidate eg_terrorists: printed 13, recomputed 13
+PASS  OS candidate ext_ua_edr: printed 11, recomputed 11
+PASS  OS candidate ext_cz_business_register: printed 10, recomputed 10
+PASS  OS candidate ext_icij_offshoreleaks: printed 10, recomputed 10
+PASS  OS candidate kp_rusi_reports: printed 10, recomputed 10
+PASS  OS new graph edges: printed 295{,}977, recomputed 295977
+PASS  abstract: closed form within 0.008 on both graphs: printed 1, recomputed 1
+PASS  Discussion: closed form within 0.008 on both graphs: printed 1, recomputed 1
+PASS  RQ1: reference > half of margin above chance, every ICIJ in-corpus score: printed 1, recomputed 1
+PASS  Discussion: same claim: printed 1, recomputed 1
+PASS  Discussion held-out refs low: printed 0.003, recomputed 0.00281504
+PASS  Discussion held-out refs high: printed 0.68, recomputed 0.682705
+PASS  RQ3 answer: all four ICIJ leaks transfer: printed 1, recomputed 1
+PASS  RQ3 answer: no OS claim: printed 1, recomputed 1
+PASS  held-out-label test re-creates first fit Panama: printed 1, recomputed 1
+PASS  held-out-label p < 0.001 Panama: printed 1, recomputed 1
+PASS  held-out null range within 0.48-0.52 Panama: printed 1, recomputed 1
+PASS  supp held-out row Panama: printed 0.689, recomputed 0.688798
+PASS  supp fits up/down Panama: printed 9, recomputed 9
+PASS  combined p equals training p Panama: printed 0.002, recomputed 0.002
+PASS  held-out-label test re-creates first fit Paradise: printed 1, recomputed 1
+PASS  held-out-label p < 0.001 Paradise: printed 1, recomputed 1
+PASS  held-out null range within 0.48-0.52 Paradise: printed 1, recomputed 1
+PASS  supp held-out row Paradise: printed 0.697, recomputed 0.696676
+PASS  supp fits up/down Paradise: printed 10, recomputed 10
+PASS  combined p equals training p Paradise: printed 0.002, recomputed 0.002
+PASS  held-out-label test re-creates first fit Offshore: printed 1, recomputed 1
+PASS  held-out-label p < 0.001 Offshore: printed 1, recomputed 1
+PASS  held-out null range within 0.48-0.52 Offshore: printed 1, recomputed 1
+PASS  supp held-out row Offshore: printed 0.657, recomputed 0.656741
+PASS  supp fits up/down Offshore: printed 10, recomputed 10
+PASS  combined p equals training p Offshore: printed 0.008, recomputed 0.008
+PASS  held-out-label test re-creates first fit Bahamas: printed 1, recomputed 1
+PASS  held-out-label p < 0.001 Bahamas: printed 1, recomputed 1
+PASS  held-out null range within 0.48-0.52 Bahamas: printed 1, recomputed 1
+PASS  supp held-out row Bahamas: printed 0.576, recomputed 0.576054
+PASS  supp fits up/down Bahamas: printed 10, recomputed 10
+PASS  combined p equals training p Bahamas: printed 0.034, recomputed 0.034
+PASS  OS held-out first fit EGRUL: printed 0.455, recomputed 0.455046
+PASS  OS first fit equals recorded EGRUL: printed 1, recomputed 1
+PASS  OS held-out p < 0.001 EGRUL: printed 1, recomputed 1
+PASS  OS fits up/down EGRUL: printed 3, recomputed 3
+PASS  OS held-out first fit SAM: printed 0.500, recomputed 0.5
+PASS  OS first fit equals recorded SAM: printed 1, recomputed 1
+PASS  OS held-out first fit Wikidata: printed 0.436, recomputed 0.435504
+PASS  OS first fit equals recorded Wikidata: printed 1, recomputed 1
+PASS  OS held-out p < 0.001 Wikidata: printed 1, recomputed 1
+PASS  OS fits up/down Wikidata: printed 0, recomputed 0
+PASS  OS held-out first fit UK disq.: printed 0.160, recomputed 0.15996
+PASS  OS first fit equals recorded UK disq.: printed 1, recomputed 1
+PASS  OS held-out p < 0.001 UK disq.: printed 1, recomputed 1
+PASS  OS fits up/down UK disq.: printed 0, recomputed 0
+PASS  OS held-out first fit ACF: printed 0.500, recomputed 0.5
+PASS  OS first fit equals recorded ACF: printed 1, recomputed 1
+PASS  EGRUL fits range low: printed 0.29, recomputed 0.288437
+PASS  EGRUL fits range high: printed 0.66, recomputed 0.662306
+PASS  Wikidata training p2 (supp): printed 0.02, recomputed 0.02
+PASS  Panama inverted fit read as reversed: printed 1, recomputed 1
+PASS  lambda ICIJ q99.9 (supp): printed 0.377, recomputed 0.376742
+PASS  factor ICIJ: printed 2.6, recomputed 2.57433
+PASS  factor OS > 1e6: printed 1, recomputed 1
+PASS  lambda row ICIJ, eight features: printed 0.377, recomputed 0.376742
+PASS  lambda max factor ICIJ: printed 55, recomputed 55.4284
+PASS  lambda row OpenSanctions, structural: printed 0.999, recomputed 0.999084
+PASS  lambda calibration ICIJ pred: printed 0.246, recomputed 0.245828
+PASS  lambda calibration ICIJ obs: printed 0.243, recomputed 0.242744
+PASS  lambda calibration OS pred: printed 0.976, recomputed 0.97605
+PASS  lambda calibration OS obs: printed 0.986, recomputed 0.986217
+PASS  cohort persons: printed 1{,}144{,}745, recomputed 1.14474e+06
+PASS  cohort persons pos: printed 31{,}693, recomputed 31693
+PASS  cohort none: printed 550{,}385, recomputed 550385
+PASS  cohort none pos: printed 15{,}168, recomputed 15168
+PASS  multi-source persons: printed 7{,}887, recomputed 7887
+PASS  multi-source persons (supp): printed 7{,}887, recomputed 7887
+PASS  multi pos: printed 5{,}557, recomputed 5557
+PASS  multi = os_multi: printed 1, recomputed 1
+PASS  cohort k=2: printed 5{,}363, recomputed 5363
+PASS  cohort k=3: printed 1{,}471, recomputed 1471
+PASS  cohort k=4: printed 645, recomputed 645
+PASS  cohort k=5: printed 408, recomputed 408
+PASS  combinations: printed 26, recomputed 26
+PASS  all 4/5-source labelled: printed 1, recomputed 1
+PASS  multi labelled (%): printed 70, recomputed 70.4577
+PASS  multi labelled (supp, %): printed 70.5, recomputed 70.4577
+PASS  single labelled (%): printed 1.9, recomputed 1.87016
+PASS  feature table reproduced: printed 1, recomputed 1
+PASS  multi row combination: printed 0.794, recomputed 0.794307
+PASS  multi row largest: printed 0.680, recomputed 0.680409
+PASS  multi row smallest: printed 0.793, recomputed 0.792776
+PASS  multi ref combination (main): printed 0.79, recomputed 0.794307
+PASS  multi ref smallest (main): printed 0.79, recomputed 0.792776
+PASS  multi ref largest (main): printed 0.68, recomputed 0.680409
+PASS  multi real (supp): printed 0.832, recomputed 0.831548
+PASS  multi thm2 within 0.001: printed 1, recomputed 1
+PASS  multi ref spread (supp): printed 0.11, recomputed 0.112366
+PASS  first cohort row: printed 0.782, recomputed 0.78165
+PASS  OS (ii),(iii) smallest Holm (supp): printed 0.25, recomputed 0.25
+PASS  granularity: one stratum (main): printed 0.500, recomputed 0.499917
+PASS  granularity: random halves (main): printed 0.651, recomputed 0.651389
+PASS  granularity: one stratum (supp): printed 0.500, recomputed 0.499917
+PASS  granularity: random halves (supp): printed 0.651, recomputed 0.651389
+PASS  granularity: random halves thm2 (supp): printed 0.652, recomputed 0.652455
+PASS  granularity: sourceID reference agrees with subsrc: printed 1, recomputed 1
+PASS  Appleby rate (%): printed 1.9, recomputed 1.91697
+PASS  Malta rate (%): printed 0.5, recomputed 0.515815
+PASS  Aruba rate (%): printed 0.03, recomputed 0.0287705
+PASS  ICIJ sub-source strata count (n): printed 11, recomputed 11
+PASS  ICIJ sub-source in-corpus ref: printed 0.660, recomputed 0.659944
+PASS  ICIJ sub-source in-corpus ref (supp): printed 0.660, recomputed 0.659944
+PASS  ICIJ sub-source thm2 (supp): printed 0.662, recomputed 0.661877
+PASS  ICIJ sub-source real (supp): printed 0.762, recomputed 0.762477
+PASS  ICIJ sub-source Holm Panama: printed 0.04, recomputed 0.04
+PASS  ICIJ sub-source Holm Paradise: printed 0.04, recomputed 0.04
+PASS  ICIJ sub-source Holm Offshore: printed 0.04, recomputed 0.04
+PASS  ICIJ sub-source Bahamas p2: printed 0.06, recomputed 0.06
+PASS  ICIJ sub-source Bahamas Holm > 0.05: printed 1, recomputed 1
+PASS  supp sub-source row Panama: printed 0.366, recomputed 0.365771
+PASS  supp sub-source row Paradise: printed 0.683, recomputed 0.683323
+PASS  supp sub-source row Offshore: printed 0.536, recomputed 0.535617
+PASS  supp sub-source row Bahamas: printed 0.490, recomputed 0.489941
+PASS  sub-source Panama null shift (supp): printed 0.63, recomputed 0.625739
+PASS  sub-source stratum Bahamas Leaks: printed 25{,}247, recomputed 25247
+PASS  sub-source stratum Offshore Leaks: printed 104{,}239, recomputed 104239
+PASS  sub-source stratum Panama Papers: printed 224{,}966, recomputed 224966
+PASS  sub-source stratum Paradise Papers - Appleby: printed 72{,}406, recomputed 72406
+PASS  sub-source stratum Paradise Papers - Aruba corporate registry: printed 31{,}282, recomputed 31282
+PASS  sub-source stratum Paradise Papers - Bahamas corporate registry: printed 11, recomputed 11
+PASS  sub-source stratum Paradise Papers - Barbados corporate registry: printed 37, recomputed 37
+PASS  sub-source stratum Paradise Papers - Cook Islands corporate registry: printed 644, recomputed 644
+PASS  sub-source stratum Paradise Papers - Lebanon corporate registry: printed 1, recomputed 1
+PASS  sub-source stratum Paradise Papers - Malta corporate registry: printed 107{,}209, recomputed 107209
+PASS  sub-source stratum Paradise Papers - Samoa corporate registry: printed 5{,}828, recomputed 5828
+PASS  plug-in table row Connectivity (3): printed 0.628, recomputed 0.627722
+PASS  plug-in table row Structural (8): printed 0.651, recomputed 0.650551
+PASS  plug-in table row Structural + graph (12): printed 0.683, recomputed 0.68307
+PASS  plug-in table row TransE: printed 0.556, recomputed 0.556329
+PASS  plug-in table row RDF2Vec: printed 0.693, recomputed 0.692684
+PASS  plug-in table row OpenSanctions structural: printed 0.619, recomputed 0.619058
+PASS  plug-in in-sample within 0.003 of Table 3: printed 1, recomputed 1
+PASS  plug-in best within 0.009: printed 1, recomputed 1
+PASS  plug-in best within 0.009 (supp): printed 1, recomputed 1
+PASS  plug-in worst up to 0.03: printed 0.03, recomputed 0.0288985
+PASS  per-fit transfers (of 40): printed 36, recomputed 36
+PASS  per-fit reversals: printed 0, recomputed 0
+PASS  per-fit transfers Panama (supp): printed 9, recomputed 9
+PASS  per-fit transfers Paradise (supp): printed 10, recomputed 10
+PASS  per-fit transfers Offshore (supp): printed 9, recomputed 9
+PASS  per-fit transfers Bahamas (supp): printed 8, recomputed 8
+PASS  balanced m ICIJ (supp): printed 670, recomputed 670
+PASS  balanced m ICIJ Bahamas (supp): printed 988, recomputed 988
+PASS  balanced positives ICIJ 3x670 (supp): printed 2,010, recomputed 2010
+PASS  balanced positives ICIJ 3x988 (supp): printed 2,964, recomputed 2964
+PASS  balanced m OS (supp): printed 187, recomputed 187
+PASS  balanced m OS ACF held out (supp): printed 308, recomputed 308
+PASS  coverage row EGRUL (supp): printed 100, recomputed 100
+PASS  coverage others EGRUL (supp): printed 100, recomputed 100
+PASS  coverage row SAM (supp): printed 0, recomputed 0
+PASS  coverage others SAM (supp): printed 0, recomputed 0
+PASS  coverage row Wikidata (supp): printed 14.9, recomputed 14.9351
+PASS  coverage others Wikidata (supp): printed 0.1, recomputed 0.10059
+PASS  coverage row UK disq. (supp): printed 0, recomputed 0
+PASS  coverage others UK disq. (supp): printed 99.4, recomputed 99.437
+PASS  coverage row ACF (supp): printed 0, recomputed 0
+PASS  coverage others ACF (supp): printed 0, recomputed 0
+PASS  coverage Wikidata linked labelled (supp): printed 52, recomputed 51.6854
+PASS  bootstrap Panama (supp): printed 0.684, recomputed 0.684495
+PASS  bootstrap first fit equals recorded Panama: printed 1, recomputed 1
+PASS  bootstrap Paradise (supp): printed 0.689, recomputed 0.688774
+PASS  bootstrap first fit equals recorded Paradise: printed 1, recomputed 1
+PASS  bootstrap Offshore (supp): printed 0.641, recomputed 0.641266
+PASS  bootstrap first fit equals recorded Offshore: printed 1, recomputed 1
+PASS  bootstrap Bahamas (supp): printed 0.561, recomputed 0.560578
+PASS  bootstrap first fit equals recorded Bahamas: printed 1, recomputed 1
+PASS  aggregate: all four leaks transfer: printed 1, recomputed 1
+PASS  aggregate: Holm 0.04 everywhere: printed 0.04, recomputed 0.04
+PASS  aggregate median equals Table 4 median Panama: printed 1, recomputed 1
+PASS  aggregate row Panama (supp): printed 0.689, recomputed 0.688536
+PASS  aggregate median equals Table 4 median Paradise: printed 1, recomputed 1
+PASS  aggregate row Paradise (supp): printed 0.694, recomputed 0.693694
+PASS  aggregate median equals Table 4 median Offshore: printed 1, recomputed 1
+PASS  aggregate row Offshore (supp): printed 0.653, recomputed 0.653377
+PASS  aggregate median equals Table 4 median Bahamas: printed 1, recomputed 1
+PASS  aggregate row Bahamas (supp): printed 0.575, recomputed 0.57547
+PASS  aggregate Panama q97.5 (supp): printed 0.633, recomputed 0.632934
+PASS  single-fit Panama q97.5 (supp): printed 0.649, recomputed 0.649157
+
+Part B: numbers with no candidate in any result file
+main.tex:219  5.18  | and the target labels in a separate named graph (5.18M quads). We keep th

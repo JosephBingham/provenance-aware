@@ -1,0 +1,52 @@
+{
+"Bahamas Leaks": {
+"n": 25247,
+"pos": 670
+},
+"Offshore Leaks": {
+"n": 104239,
+"pos": 988
+},
+"Panama Papers": {
+"n": 224966,
+"pos": 11251
+},
+"Paradise Papers - Appleby": {
+"n": 72406,
+"pos": 1388
+},
+"Paradise Papers - Aruba corporate registry": {
+"n": 31282,
+"pos": 9
+},
+"Paradise Papers - Bahamas corporate registry": {
+"n": 11,
+"pos": 0
+},
+"Paradise Papers - Barbados corporate registry": {
+"n": 37,
+"pos": 0
+},
+"Paradise Papers - Cook Islands corporate registry": {
+"n": 644,
+"pos": 16
+},
+"Paradise Papers - Lebanon corporate registry": {
+"n": 1,
+"pos": 0
+},
+"Paradise Papers - Malta corporate registry": {
+"n": 107209,
+"pos": 553
+},
+"Paradise Papers - Samoa corporate registry": {
+"n": 5828,
+"pos": 3
+}
+}
+in-corpus sub-sources {'real': 0.7624767275375308, 'ref': 0.6599438602584211, 'ref_sd': 0.004411651690609305} thm2 0.6618770929498032 acc 0.738175
+Panama Papers {'pooled_ref': 0.366, 'pooled_lo': 0.343, 'pooled_hi': 0.387, 'bal_null_mean': 0.626, 'bal_q025': 0.575, 'bal_q975': 0.663, 'bal_first': 0.689, 'pT_up': 0.005, 'pT_down': 1.0, 'p2': 0.01}
+Paradise Papers {'pooled_ref': 0.683, 'pooled_lo': 0.658, 'pooled_hi': 0.708, 'bal_null_mean': 0.503, 'bal_q025': 0.334, 'bal_q975': 0.675, 'bal_first': 0.697, 'pT_up': 0.005, 'pT_down': 1.0, 'p2': 0.01}
+Offshore Leaks {'pooled_ref': 0.536, 'pooled_lo': 0.506, 'pooled_hi': 0.567, 'bal_null_mean': 0.432, 'bal_q025': 0.348, 'bal_q975': 0.587, 'bal_first': 0.657, 'pT_up': 0.005, 'pT_down': 1.0, 'p2': 0.01}
+Bahamas Leaks {'pooled_ref': 0.49, 'pooled_lo': 0.486, 'pooled_hi': 0.493, 'bal_null_mean': 0.5, 'bal_q025': 0.427, 'bal_q975': 0.575, 'bal_first': 0.576, 'pT_up': 0.03, 'pT_down': 0.975, 'p2': 0.06}
+Holm {'Panama Papers': np.float64(0.04), 'Paradise Papers': np.float64(0.04), 'Offshore Leaks': np.float64(0.04), 'Bahamas Leaks': np.float64(0.06)}

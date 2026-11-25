@@ -1,0 +1,56 @@
+settings: 324
+shortcut present (population): 97 | fitted reference flags 94 of them; false flags 19 of 227
+shortcut present  against chance               [62, 4, 0, 31] n 97
+shortcut present  2-SD rule, 9 draws           [86, 0, 0, 11] n 97
+shortcut present  2-SD rule, 39 draws          [86, 0, 0, 11] n 97
+shortcut present  permutation, 0.05 per tail, 19 draws [88, 0, 0, 9] n 97
+shortcut present  permutation, 0.025 per tail, 39 draws [87, 0, 0, 10] n 97
+all settings      against chance               [268, 4, 0, 52] n 324
+all settings      2-SD rule, 9 draws           [281, 0, 15, 28] n 324
+all settings      2-SD rule, 39 draws          [291, 0, 7, 26] n 324
+all settings      permutation, 0.05 per tail, 19 draws [290, 0, 12, 22] n 324
+all settings      permutation, 0.025 per tail, 39 draws [290, 0, 7, 27] n 324
+
+false 'transfers'/'reversal' calls when the target has no signal (absent), by rule:
+  against chance               0.000 (n=108); with shortcut present 0.000 (n=1)
+  2-SD rule, 9 draws           0.139 (n=108); with shortcut present 0.000 (n=1)
+  2-SD rule, 39 draws          0.065 (n=108); with shortcut present 0.000 (n=1)
+  permutation, 0.05 per tail, 19 draws 0.111 (n=108); with shortcut present 0.000 (n=1)
+  permutation, 0.025 per tail, 39 draws 0.065 (n=108); with shortcut present 0.000 (n=1)
+
+correct detection of a real transfer or reversal, by signal strength (shortcut present | absent):
+  against chance
+    d=0.25 S: det 0.40 wrong 0.03 (n=30)
+    d=0.25 N: det 0.50 wrong 0.00 (n=42)
+    d=0.5 S: det 0.59 wrong 0.09 (n=32)
+    d=0.5 N: det 1.00 wrong 0.00 (n=40)
+    d=1.0 S: det 0.88 wrong 0.00 (n=34)
+    d=1.0 N: det 1.00 wrong 0.00 (n=38)
+  2-SD rule, 9 draws
+    d=0.25 S: det 0.63 wrong 0.00 (n=30)
+    d=0.25 N: det 0.60 wrong 0.00 (n=42)
+    d=0.5 S: det 1.00 wrong 0.00 (n=32)
+    d=0.5 N: det 1.00 wrong 0.00 (n=40)
+    d=1.0 S: det 1.00 wrong 0.00 (n=34)
+    d=1.0 N: det 1.00 wrong 0.00 (n=38)
+  2-SD rule, 39 draws
+    d=0.25 S: det 0.63 wrong 0.00 (n=30)
+    d=0.25 N: det 0.64 wrong 0.00 (n=42)
+    d=0.5 S: det 1.00 wrong 0.00 (n=32)
+    d=0.5 N: det 1.00 wrong 0.00 (n=40)
+    d=1.0 S: det 1.00 wrong 0.00 (n=34)
+    d=1.0 N: det 1.00 wrong 0.00 (n=38)
+  permutation, 0.05 per tail, 19 draws
+    d=0.25 S: det 0.70 wrong 0.00 (n=30)
+    d=0.25 N: det 0.69 wrong 0.00 (n=42)
+    d=0.5 S: det 1.00 wrong 0.00 (n=32)
+    d=0.5 N: det 1.00 wrong 0.00 (n=40)
+    d=1.0 S: det 1.00 wrong 0.00 (n=34)
+    d=1.0 N: det 1.00 wrong 0.00 (n=38)
+  permutation, 0.025 per tail, 39 draws
+    d=0.25 S: det 0.67 wrong 0.00 (n=30)
+    d=0.25 N: det 0.60 wrong 0.00 (n=42)
+    d=0.5 S: det 1.00 wrong 0.00 (n=32)
+    d=0.5 N: det 1.00 wrong 0.00 (n=40)
+    d=1.0 S: det 1.00 wrong 0.00 (n=34)
+    d=1.0 N: det 1.00 wrong 0.00 (n=38)

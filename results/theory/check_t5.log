@@ -1,0 +1,7 @@
+min g 0.543 max g 1.9 | E_s[g]: [np.float64(0.9996), np.float64(1.0), np.float64(0.9997)]
+labelled rates by source: [np.float64(0.0098), np.float64(0.0201), np.float64(0.06)] (pi_s [0.01, 0.02, 0.06])
+T5(a): AUC pooled 0.6608 | AUC(r*g) 0.6608 | AUC(r) 0.6575 | AUC(g) 0.5679
+T5(c): lambda 0.085, eps 0.0887; max|delta| 0.0283 <= eps: True; |AUC(bal)-AUC(g)| 0.00002 <= P(|dlog g|<=2eps) 0.7647
+T5(d) theta=0.1: AUC_PU-1/2 0.0340 vs (1-gamma)(AUC-1/2) 0.0344 (gamma 0.042)
+T5(d) theta=0.2: AUC_PU-1/2 0.0354 vs (1-gamma)(AUC-1/2) 0.0343 (gamma 0.149)
+general case: corr(rank pooled, rank r_b*g) = 1.0000; labelled rates [np.float64(0.0099), np.float64(0.0201), np.float64(0.0597)] vs b_s*E_s[g] [0.01, 0.02, 0.06]

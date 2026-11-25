@@ -1,0 +1,5 @@
+conn     closed form 0.631  Prop. 2 bound 0.833
+full8    closed form 0.652  Prop. 2 bound 0.859
+full12   closed form 0.688  Prop. 2 bound 0.927
+transe   closed form 0.564  Prop. 2 bound 0.624
+rdf2vec  closed form 0.695  Prop. 2 bound 0.976

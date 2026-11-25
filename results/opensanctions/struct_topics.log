@@ -1,0 +1,8 @@
+struct_topics source acc 1.0 thm2 0.6530855196573151
+incorpus_uniform 0.88 0.651 80s
+incorpus_matched 0.845 0.502 119s
+ext_ru_egrul real 0.556 ref 0.527 p 0.5 src-only 0.5 ord 0.521 | bal 0.464 0.487 213s
+us_sam_exclusions real 0.5 ref 0.5 p 1.0 src-only 0.5 ord 0.5 | bal 0.5 0.5 274s
+wikidata real 0.538 ref 0.535 p 0.433 src-only 0.574 ord 0.51 | bal 0.465 0.496 320s
+gb_coh_disqualified real 0.003 ref 0.003 p 1.0 src-only 0.003 ord 0.545 | bal 0.107 0.443 353s
+ru_acf_bribetakers real 0.5 ref 0.5 p 1.0 src-only 0.5 ord 0.5 | bal 0.5 0.5 387s

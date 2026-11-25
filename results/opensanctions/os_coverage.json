@@ -1,0 +1,47 @@
+{
+ "ext_ru_egrul": {
+  "n": 60909,
+  "pos": 3736,
+  "rel_pos": 1.0,
+  "rel_oth": 1.0,
+  "distinct_i": 3319,
+  "distinct_ii": 3319,
+  "linked_labelled": 0.061337404981201465
+ },
+ "us_sam_exclusions": {
+  "n": 16227,
+  "pos": 914,
+  "rel_pos": 0.0,
+  "rel_oth": 0.0,
+  "distinct_i": 1,
+  "distinct_ii": 1,
+  "linked_labelled": null
+ },
+ "wikidata": {
+  "n": 43056,
+  "pos": 308,
+  "rel_pos": 0.14935064935064934,
+  "rel_oth": 0.00100589501263217,
+  "distinct_i": 32,
+  "distinct_ii": 57,
+  "linked_labelled": 0.5168539325842697
+ },
+ "gb_coh_disqualified": {
+  "n": 6365,
+  "pos": 326,
+  "rel_pos": 0.0,
+  "rel_oth": 0.9943699287961583,
+  "distinct_i": 49,
+  "distinct_ii": 49,
+  "linked_labelled": 0.0
+ },
+ "ru_acf_bribetakers": {
+  "n": 4038,
+  "pos": 187,
+  "rel_pos": 0.0,
+  "rel_oth": 0.0,
+  "distinct_i": 1,
+  "distinct_ii": 1,
+  "linked_labelled": null
+ }
+}

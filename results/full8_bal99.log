@@ -1,0 +1,8 @@
+Panama Papers real 0.666 (sd 0.072) | null mean 0.489 sd 0.109 q2.5 0.336 q97.5 0.652 max 0.659 | mean+2sd 0.706 | p(first) 0.01 | share of real draws > all nulls 0.9
+   null histogram [0, 11, 23, 9, 9, 11, 13, 19, 4, 0]
+Paradise Papers real 0.695 (sd 0.007) | null mean 0.504 sd 0.093 q2.5 0.341 q97.5 0.667 max 0.696 | mean+2sd 0.690 | p(first) 0.01 | share of real draws > all nulls 0.5
+   null histogram [0, 4, 11, 11, 23, 20, 12, 10, 8, 0]
+Offshore Leaks real 0.652 (sd 0.007) | null mean 0.495 sd 0.085 q2.5 0.350 q97.5 0.618 max 0.664 | mean+2sd 0.664 | p(first) 0.03 | share of real draws > all nulls 0.0
+   null histogram [0, 3, 18, 11, 15, 16, 27, 7, 2, 0]
+Bahamas Leaks real 0.575 (sd 0.002) | null mean 0.499 sd 0.046 q2.5 0.424 q97.5 0.574 max 0.585 | mean+2sd 0.591 | p(first) 0.04 | share of real draws > all nulls 0.0
+   null histogram [0, 0, 0, 20, 27, 38, 14, 0, 0, 0]

@@ -1,0 +1,8 @@
+rdf2vec source acc 0.840375 thm2 0.6241855826558832
+incorpus_uniform 0.848 0.617 94s
+incorpus_matched 0.878 0.501 117s
+ext_ru_egrul real 0.356 ref 0.464 p 0.933 src-only 0.675 ord 0.417 | bal 0.347 0.466 205s
+us_sam_exclusions real 0.485 ref 0.496 p 0.633 src-only 0.5 ord 0.499 | bal 0.496 0.501 281s
+wikidata real 0.432 ref 0.503 p 0.967 src-only 0.575 ord 0.489 | bal 0.422 0.492 381s
+gb_coh_disqualified real 0.045 ref 0.019 p 0.1 src-only 0.003 ord 0.581 | bal 0.108 0.519 461s
+ru_acf_bribetakers real 0.499 ref 0.501 p 0.4 src-only 0.488 ord 0.503 | bal 0.501 0.502 536s

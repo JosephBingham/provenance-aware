@@ -1,0 +1,8 @@
+quads 1191598 load 0s
+['?g', '?persons', '?positives', '?labelRate']
+['<https://w3id.org/anon-e2/graph/gb_coh_disqualified>', '"6676"^^<http://www.w3.org/2001/XMLSchema#integer>', '"633"^^<http://www.w3.org/2001/XMLSchema#integer>', '"0.094817255841821449"^^<http://www.w3.org/2001/XMLSchema#decimal>']
+['<https://w3id.org/anon-e2/graph/ext_ru_egrul>', '"70199"^^<http://www.w3.org/2001/XMLSchema#integer>', '"4949"^^<http://www.w3.org/2001/XMLSchema#integer>', '"0.070499579766093534"^^<http://www.w3.org/2001/XMLSchema#decimal>']
+['<https://w3id.org/anon-e2/graph/ru_acf_bribetakers>', '"4157"^^<http://www.w3.org/2001/XMLSchema#integer>', '"288"^^<http://www.w3.org/2001/XMLSchema#integer>', '"0.06928073129660813"^^<http://www.w3.org/2001/XMLSchema#decimal>']
+['<https://w3id.org/anon-e2/graph/us_sam_exclusions>', '"85418"^^<http://www.w3.org/2001/XMLSchema#integer>', '"3796"^^<http://www.w3.org/2001/XMLSchema#integer>', '"0.04444028190779461"^^<http://www.w3.org/2001/XMLSchema#decimal>']
+['<https://w3id.org/anon-e2/graph/wikidata>', '"420023"^^<http://www.w3.org/2001/XMLSchema#integer>', '"1302"^^<http://www.w3.org/2001/XMLSchema#integer>', '"0.003099830247391214"^^<http://www.w3.org/2001/XMLSchema#decimal>']
+query 9s

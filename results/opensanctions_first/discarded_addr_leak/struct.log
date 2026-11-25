@@ -1,0 +1,5 @@
+struct source acc 0.85205 thm2 0.7821370672452765
+incorpus_uniform 0.877 0.783 24s
+incorpus_matched 0.798 0.5 42s
+ext_ru_egrul real 0.523 ref 0.576 p 0.52 src-only 0.484 ord 0.475 | bal 0.551 0.472 293s
+us_sam_exclusions real 0.741 ref 0.277 p 0.01 src-only 0.743 ord 0.45 | bal 0.746 0.508 555s

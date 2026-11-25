@@ -1,0 +1,26 @@
+entities 2013897 triples 2717802 train 2704213
+epoch 0 sampled MRR 0.0526 (random ~ 0.0515 )
+icij/transe.py:55: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  opt.zero_grad(); loss.backward(); opt.step(); tot += float(loss) * len(bt)
+epoch 1 loss 0.8482 sampled MRR 0.1838 23s
+epoch 2 loss 0.4664 sampled MRR 0.1940 45s
+epoch 3 loss 0.2527 sampled MRR 0.1919 67s
+epoch 4 loss 0.1623 sampled MRR 0.1982 89s
+epoch 5 loss 0.1164 sampled MRR 0.2062 110s
+epoch 6 loss 0.0885 sampled MRR 0.2238 131s
+epoch 7 loss 0.0695 sampled MRR 0.2312 152s
+epoch 8 loss 0.0573 sampled MRR 0.2385 174s
+epoch 9 loss 0.0485 sampled MRR 0.2496 195s
+epoch 10 loss 0.0419 sampled MRR 0.2607 216s
+epoch 11 loss 0.0370 sampled MRR 0.2680 239s
+epoch 12 loss 0.0331 sampled MRR 0.2735 261s
+epoch 13 loss 0.0303 sampled MRR 0.2842 284s
+epoch 14 loss 0.0282 sampled MRR 0.2881 306s
+epoch 15 loss 0.0264 sampled MRR 0.2939 326s
+epoch 16 loss 0.0249 sampled MRR 0.2919 348s
+epoch 17 loss 0.0236 sampled MRR 0.3008 371s
+epoch 18 loss 0.0225 sampled MRR 0.2999 393s
+epoch 19 loss 0.0216 sampled MRR 0.3042 414s
+epoch 20 loss 0.0208 sampled MRR 0.3046 435s
+saved 571870

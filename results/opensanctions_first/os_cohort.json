@@ -1,0 +1,164 @@
+{
+ "entities": 1540971,
+ "label_datasets": 80,
+ "persons": 1144745,
+ "persons_pos": 31693,
+ "by_k": {
+  "0": {
+   "n": 550385,
+   "pos": 15168
+  },
+  "1": {
+   "n": 586473,
+   "pos": 10968
+  },
+  "2": {
+   "n": 5363,
+   "pos": 3327
+  },
+  "3": {
+   "n": 1471,
+   "pos": 1177
+  },
+  "4": {
+   "n": 645,
+   "pos": 645
+  },
+  "5": {
+   "n": 408,
+   "pos": 408
+  }
+ },
+ "multi_combos": {
+  "ext_ru_egrul+gb_coh_disqualified": {
+   "n": 138,
+   "pos": 138
+  },
+  "ext_ru_egrul+gb_coh_disqualified+ru_acf_bribetakers": {
+   "n": 42,
+   "pos": 42
+  },
+  "ext_ru_egrul+gb_coh_disqualified+ru_acf_bribetakers+us_sam_exclusions": {
+   "n": 50,
+   "pos": 50
+  },
+  "ext_ru_egrul+gb_coh_disqualified+ru_acf_bribetakers+us_sam_exclusions+wikidata": {
+   "n": 408,
+   "pos": 408
+  },
+  "ext_ru_egrul+gb_coh_disqualified+ru_acf_bribetakers+wikidata": {
+   "n": 83,
+   "pos": 83
+  },
+  "ext_ru_egrul+gb_coh_disqualified+us_sam_exclusions": {
+   "n": 81,
+   "pos": 81
+  },
+  "ext_ru_egrul+gb_coh_disqualified+us_sam_exclusions+wikidata": {
+   "n": 37,
+   "pos": 37
+  },
+  "ext_ru_egrul+gb_coh_disqualified+wikidata": {
+   "n": 41,
+   "pos": 41
+  },
+  "ext_ru_egrul+ru_acf_bribetakers": {
+   "n": 1526,
+   "pos": 331
+  },
+  "ext_ru_egrul+ru_acf_bribetakers+us_sam_exclusions": {
+   "n": 40,
+   "pos": 40
+  },
+  "ext_ru_egrul+ru_acf_bribetakers+us_sam_exclusions+wikidata": {
+   "n": 173,
+   "pos": 173
+  },
+  "ext_ru_egrul+ru_acf_bribetakers+wikidata": {
+   "n": 746,
+   "pos": 452
+  },
+  "ext_ru_egrul+us_sam_exclusions": {
+   "n": 316,
+   "pos": 314
+  },
+  "ext_ru_egrul+us_sam_exclusions+wikidata": {
+   "n": 60,
+   "pos": 60
+  },
+  "ext_ru_egrul+wikidata": {
+   "n": 744,
+   "pos": 626
+  },
+  "gb_coh_disqualified+ru_acf_bribetakers": {
+   "n": 30,
+   "pos": 30
+  },
+  "gb_coh_disqualified+ru_acf_bribetakers+us_sam_exclusions": {
+   "n": 44,
+   "pos": 44
+  },
+  "gb_coh_disqualified+ru_acf_bribetakers+us_sam_exclusions+wikidata": {
+   "n": 302,
+   "pos": 302
+  },
+  "gb_coh_disqualified+ru_acf_bribetakers+wikidata": {
+   "n": 38,
+   "pos": 38
+  },
+  "gb_coh_disqualified+us_sam_exclusions": {
+   "n": 286,
+   "pos": 286
+  },
+  "gb_coh_disqualified+us_sam_exclusions+wikidata": {
+   "n": 278,
+   "pos": 278
+  },
+  "gb_coh_disqualified+wikidata": {
+   "n": 279,
+   "pos": 275
+  },
+  "ru_acf_bribetakers+us_sam_exclusions": {
+   "n": 33,
+   "pos": 33
+  },
+  "ru_acf_bribetakers+us_sam_exclusions+wikidata": {
+   "n": 101,
+   "pos": 101
+  },
+  "ru_acf_bribetakers+wikidata": {
+   "n": 907,
+   "pos": 218
+  },
+  "us_sam_exclusions+wikidata": {
+   "n": 1104,
+   "pos": 1076
+  }
+ },
+ "single": {
+  "ext_ru_egrul": {
+   "n": 70199,
+   "pos": 4949
+  },
+  "gb_coh_disqualified": {
+   "n": 6676,
+   "pos": 633
+  },
+  "ru_acf_bribetakers": {
+   "n": 4157,
+   "pos": 288
+  },
+  "us_sam_exclusions": {
+   "n": 85418,
+   "pos": 3796
+  },
+  "wikidata": {
+   "n": 420023,
+   "pos": 1302
+  }
+ },
+ "persons_no_S": {
+  "n": 550385,
+  "pos": 15168
+ }
+}

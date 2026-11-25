@@ -1,0 +1,11 @@
+graph 870668 nodes, 732374 typed triples, relations ['Associate', 'Directorship', 'Family', 'Occupancy', 'Ownership', 'Succession', 'addressEntity'], 3s
+walk round 1/8 4s
+walk round 2/8 6s
+walk round 3/8 7s
+walk round 4/8 8s
+walk round 5/8 9s
+walk round 6/8 11s
+walk round 7/8 12s
+walk round 8/8 13s
+word2vec done 579s; vocab 813814
+saved (586473, 64) 580s

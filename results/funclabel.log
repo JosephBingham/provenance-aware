@@ -1,0 +1,5 @@
+{'n_functional': 172, 'n_functional_not_name': 155, 'by_leak': {'Panama Papers': 0, 'Paradise Papers': 0, 'Offshore Leaks': 172, 'Bahamas Leaks': 0}}
+incorpus_uniform {'real': np.float64(0.921), 'real_sd': np.float64(0.015), 'null': np.float64(0.765), 'null_sd': np.float64(0.03), 'null_lo': np.float64(0.717), 'null_hi': np.float64(0.818), 'diff': np.float64(0.156), 'p': np.float64(0.05), 'real_ap': np.float64(0.267), 'null_ap': np.float64(0.009), 'null_ap_sd': np.float64(0.004), 'B': 19}
+incorpus_matched {'real': np.float64(0.818), 'real_sd': np.float64(0.014), 'null': np.float64(0.495), 'null_sd': np.float64(0.028), 'null_lo': np.float64(0.448), 'null_hi': np.float64(0.532), 'diff': np.float64(0.323), 'p': np.float64(0.05), 'real_ap': np.float64(0.346), 'null_ap': np.float64(0.003), 'null_ap_sd': np.float64(0.0), 'B': 19}
+thm3 0.772 source acc 0.83
+name-trained model on name-independent functional nominees: 0.424 | raw entity degree: 0.701 | n pos 155

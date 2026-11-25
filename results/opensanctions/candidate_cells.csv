@@ -1,0 +1,17 @@
+d,n,pos,reason
+ext_ru_egrul,60909,3736,source
+us_sam_exclusions,16227,914,source
+ua_war_sanctions,1137,608,sanctions publication
+gb_coh_disqualified,6365,326,source
+wikidata,43056,308,source
+ru_acf_bribetakers,4038,187,source
+tw_shtc,95,95,sanctions publication
+ext_us_ofac_press_releases,79,79,sanctions publication
+ext_ge_company_registry,48,48,< 150 positives in its cell
+in_nia_wanted,452,23,< 150 positives in its cell
+interpol_red_notices,6101,19,< 150 positives in its cell
+eg_terrorists,3627,13,< 150 positives in its cell
+ext_ua_edr,12,11,< 150 positives in its cell
+ext_cz_business_register,11,10,< 150 positives in its cell
+ext_icij_offshoreleaks,10,10,< 150 positives in its cell
+kp_rusi_reports,1640,10,< 150 positives in its cell

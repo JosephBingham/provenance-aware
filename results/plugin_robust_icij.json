@@ -1,0 +1,167 @@
+{
+ "Connectivity (3)": {
+  "observed": 0.6277221312271268,
+  "boosting (as reported)": {
+   "plugin": 0.6308803448606813,
+   "logloss": null,
+   "acc": null
+  },
+  "boosting (as reported), cross-fitted": {
+   "plugin": 0.6300732897349455,
+   "logloss": 0.5501256604643481,
+   "acc": 0.7629833333333333
+  },
+  "boosting, L2 1, cross-fitted": {
+   "plugin": 0.6300412566310015,
+   "logloss": 0.5496886852650535,
+   "acc": 0.7630666666666667
+  },
+  "boosting, L2 10, cross-fitted": {
+   "plugin": 0.6299178059085895,
+   "logloss": 0.5498745131278264,
+   "acc": 0.7633
+  },
+  "boosting, depth 6, 400 trees, cross-fitted": {
+   "plugin": 0.6302872161029166,
+   "logloss": 0.5557983216987719,
+   "acc": 0.7626
+  },
+  "logistic regression, cross-fitted": {
+   "plugin": 0.6233013303796711,
+   "logloss": 0.6344686738166867,
+   "acc": 0.74675
+  }
+ },
+ "Structural (8)": {
+  "observed": 0.6505506580028382,
+  "boosting (as reported)": {
+   "plugin": 0.6526222170793141,
+   "logloss": null,
+   "acc": null
+  },
+  "boosting (as reported), cross-fitted": {
+   "plugin": 0.6524985101717995,
+   "logloss": 0.4633212961410601,
+   "acc": 0.8267666666666666
+  },
+  "boosting, L2 1, cross-fitted": {
+   "plugin": 0.6525050301407191,
+   "logloss": 0.4627138754469321,
+   "acc": 0.8268166666666666
+  },
+  "boosting, L2 10, cross-fitted": {
+   "plugin": 0.6524544825235078,
+   "logloss": 0.46253767813025004,
+   "acc": 0.827
+  },
+  "boosting, depth 6, 400 trees, cross-fitted": {
+   "plugin": 0.6526988643793568,
+   "logloss": 0.47273732888703435,
+   "acc": 0.8262
+  },
+  "logistic regression, cross-fitted": {
+   "plugin": 0.6501272900623707,
+   "logloss": 0.5050264835183813,
+   "acc": 0.8152
+  }
+ },
+ "Structural + graph (12)": {
+  "observed": 0.6830702180894763,
+  "boosting (as reported)": {
+   "plugin": 0.6881147657155173,
+   "logloss": null,
+   "acc": null
+  },
+  "boosting (as reported), cross-fitted": {
+   "plugin": 0.6879891518276378,
+   "logloss": 0.21418591690313044,
+   "acc": 0.9189333333333334
+  },
+  "boosting, L2 1, cross-fitted": {
+   "plugin": 0.6878713603355823,
+   "logloss": 0.21491648011615533,
+   "acc": 0.91875
+  },
+  "boosting, L2 10, cross-fitted": {
+   "plugin": 0.6872518340723026,
+   "logloss": 0.2213365201498636,
+   "acc": 0.9157666666666666
+  },
+  "boosting, depth 6, 400 trees, cross-fitted": {
+   "plugin": 0.691505154188189,
+   "logloss": 0.1808154856441458,
+   "acc": 0.9331166666666666
+  },
+  "logistic regression, cross-fitted": {
+   "plugin": 0.6607074133643411,
+   "logloss": 0.4649504561391807,
+   "acc": 0.8186
+  }
+ },
+ "TransE": {
+  "observed": 0.5563288901336918,
+  "boosting (as reported)": {
+   "plugin": 0.564591084035981,
+   "logloss": null,
+   "acc": null
+  },
+  "boosting (as reported), cross-fitted": {
+   "plugin": 0.5646513494635131,
+   "logloss": 1.0524938103198345,
+   "acc": 0.5367
+  },
+  "boosting, L2 1, cross-fitted": {
+   "plugin": 0.564702983270598,
+   "logloss": 1.051906672539943,
+   "acc": 0.5360333333333334
+  },
+  "boosting, L2 10, cross-fitted": {
+   "plugin": 0.5643900883004712,
+   "logloss": 1.0519298709817142,
+   "acc": 0.5376666666666667
+  },
+  "boosting, depth 6, 400 trees, cross-fitted": {
+   "plugin": 0.5852273764074979,
+   "logloss": 1.0663953092155873,
+   "acc": 0.5299666666666667
+  },
+  "logistic regression, cross-fitted": {
+   "plugin": 0.5704490830881497,
+   "logloss": 1.058488421407917,
+   "acc": 0.5347666666666666
+  }
+ },
+ "RDF2Vec": {
+  "observed": 0.6926841407125252,
+  "boosting (as reported)": {
+   "plugin": 0.69489464851113,
+   "logloss": null,
+   "acc": null
+  },
+  "boosting (as reported), cross-fitted": {
+   "plugin": 0.6948590645023995,
+   "logloss": 0.017346494056189467,
+   "acc": 0.9948833333333333
+  },
+  "boosting, L2 1, cross-fitted": {
+   "plugin": 0.69483797289666,
+   "logloss": 0.017293261655716992,
+   "acc": 0.9947666666666666
+  },
+  "boosting, L2 10, cross-fitted": {
+   "plugin": 0.6947870864776347,
+   "logloss": 0.018253694328678394,
+   "acc": 0.9944833333333334
+  },
+  "boosting, depth 6, 400 trees, cross-fitted": {
+   "plugin": 0.6952017175287952,
+   "logloss": 0.02046736496028271,
+   "acc": 0.9962666666666666
+  },
+  "logistic regression, cross-fitted": {
+   "plugin": 0.6940218069153731,
+   "logloss": 0.06360631894371033,
+   "acc": 0.9792833333333333
+  }
+ }
+}

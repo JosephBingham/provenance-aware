@@ -1,0 +1,114 @@
+{
+ "Panama Papers": {
+  "holm": [
+   0.008,
+   0.008,
+   0.008,
+   0.846,
+   0.008,
+   0.008,
+   0.008,
+   0.008,
+   0.008,
+   0.008
+  ],
+  "reading": [
+   "transfer",
+   "transfer",
+   "transfer",
+   "inconclusive",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer"
+  ],
+  "n_transfer": 9,
+  "n_reversal": 0
+ },
+ "Paradise Papers": {
+  "holm": [
+   0.008,
+   0.008,
+   0.03,
+   0.032,
+   0.008,
+   0.008,
+   0.02,
+   0.024,
+   0.03,
+   0.008
+  ],
+  "reading": [
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer"
+  ],
+  "n_transfer": 10,
+  "n_reversal": 0
+ },
+ "Offshore Leaks": {
+  "holm": [
+   0.016,
+   0.012,
+   0.04,
+   0.032,
+   0.072,
+   0.016,
+   0.018000000000000002,
+   0.024,
+   0.03,
+   0.016
+  ],
+  "reading": [
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "inconclusive",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer"
+  ],
+  "n_transfer": 9,
+  "n_reversal": 0
+ },
+ "Bahamas Leaks": {
+  "holm": [
+   0.034,
+   0.028,
+   0.044,
+   0.088,
+   0.102,
+   0.038,
+   0.034,
+   0.028,
+   0.038,
+   0.038
+  ],
+  "reading": [
+   "transfer",
+   "transfer",
+   "transfer",
+   "inconclusive",
+   "inconclusive",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer",
+   "transfer"
+  ],
+  "n_transfer": 8,
+  "n_reversal": 0
+ }
+}

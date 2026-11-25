@@ -1,0 +1,35 @@
+{
+ "OpenSanctions structural": {
+  "observed": 0.6190583221612838,
+  "boosting (as reported)": {
+   "plugin": 0.6210308448149189,
+   "logloss": null,
+   "acc": null
+  },
+  "boosting (as reported), cross-fitted": {
+   "plugin": 0.6210441595962991,
+   "logloss": 0.42777091501490305,
+   "acc": 0.8338666666666668
+  },
+  "boosting, L2 1, cross-fitted": {
+   "plugin": 0.6210401427236832,
+   "logloss": 0.4274465693777505,
+   "acc": 0.8338666666666668
+  },
+  "boosting, L2 10, cross-fitted": {
+   "plugin": 0.621027309902152,
+   "logloss": 0.4275969240601749,
+   "acc": 0.8339333333333334
+  },
+  "boosting, depth 6, 400 trees, cross-fitted": {
+   "plugin": 0.6210422833650897,
+   "logloss": 0.4285923956099373,
+   "acc": 0.8338833333333333
+  },
+  "logistic regression, cross-fitted": {
+   "plugin": 0.621017203233527,
+   "logloss": 0.42856525909869314,
+   "acc": 0.8337666666666667
+  }
+ }
+}

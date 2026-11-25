@@ -1,0 +1,60 @@
+{
+ "q": {
+  "Panama Papers": 0.3933866088446675,
+  "Paradise Papers": 0.38018780492069876,
+  "Offshore Leaks": 0.18227744067707696,
+  "Bahamas Leaks": 0.044148145557556785
+ },
+ "pi": {
+  "Panama Papers": 0.05001200181360739,
+  "Paradise Papers": 0.009056287887847372,
+  "Offshore Leaks": 0.009478218325194984,
+  "Bahamas Leaks": 0.026537806472056086
+ },
+ "e_relative_mean": {
+  "Panama Papers": 1.1477367699505951,
+  "Paradise Papers": 0.8908371995266064,
+  "Offshore Leaks": 0.92771411795818,
+  "Bahamas Leaks": 0.9220982937686015
+ },
+ "e_relative_winsorised": {
+  "Panama Papers": 1.15952630072099,
+  "Paradise Papers": 0.8743961986078619,
+  "Offshore Leaks": 0.9283319076108862,
+  "Bahamas Leaks": 0.956079684937874
+ },
+ "e_ratio_max_min": 1.2883799313280877,
+ "rates_adjusted_mean": {
+  "Panama Papers": 0.04357445289111037,
+  "Paradise Papers": 0.010166041441309266,
+  "Offshore Leaks": 0.010216744729567916,
+  "Bahamas Leaks": 0.028779802165771806
+ },
+ "incorpus_closed_form_actual": 0.6527353840381207,
+ "incorpus_closed_form_adjusted_mean": 0.6343892128524293,
+ "rates_adjusted_winsorised": {
+  "Panama Papers": 0.04313140787105051,
+  "Paradise Papers": 0.010357190370070239,
+  "Offshore Leaks": 0.010209945653583862,
+  "Bahamas Leaks": 0.027756898185511088
+ },
+ "incorpus_closed_form_adjusted_winsorised": 0.6325021121509092,
+ "heldout_plugin": {
+  "Panama Papers": {
+   "actual": 0.3442302506443873,
+   "adjusted": 0.32290716047462453
+  },
+  "Paradise Papers": {
+   "actual": 0.6944914233113255,
+   "adjusted": 0.6939246508379888
+  },
+  "Offshore Leaks": {
+   "actual": 0.5368707869433199,
+   "adjusted": 0.5366354630566802
+  },
+  "Bahamas Leaks": {
+   "actual": 0.49044784014176585,
+   "adjusted": 0.49048840713225983
+  }
+ }
+}

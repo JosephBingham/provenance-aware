@@ -1,0 +1,11 @@
+graph 2013897 nodes, 2717802 typed triples, 11s
+walk round 1/8 20s
+walk round 2/8 23s
+walk round 3/8 25s
+walk round 4/8 27s
+walk round 5/8 30s
+walk round 6/8 32s
+walk round 7/8 34s
+walk round 8/8 37s
+word2vec done 545s; vocab 1369393
+saved (571870, 64) 546s

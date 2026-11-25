@@ -1,0 +1,144 @@
+{
+ "strata": {
+  "leak (paper)": {
+   "Bahamas Leaks": [
+    25247,
+    670
+   ],
+   "Offshore Leaks": [
+    104239,
+    988
+   ],
+   "Panama Papers": [
+    224966,
+    11251
+   ],
+   "Paradise Papers": [
+    217418,
+    1969
+   ]
+  },
+  "sourceID": {
+   "Bahamas Leaks": [
+    25247,
+    670
+   ],
+   "Offshore Leaks": [
+    104239,
+    988
+   ],
+   "Panama Papers": [
+    224966,
+    11251
+   ],
+   "Paradise Papers - Appleby": [
+    72406,
+    1388
+   ],
+   "Paradise Papers - Aruba corporate registry": [
+    31282,
+    9
+   ],
+   "Paradise Papers - Bahamas corporate registry": [
+    11,
+    0
+   ],
+   "Paradise Papers - Barbados corporate registry": [
+    37,
+    0
+   ],
+   "Paradise Papers - Cook Islands corporate registry": [
+    644,
+    16
+   ],
+   "Paradise Papers - Lebanon corporate registry": [
+    1,
+    0
+   ],
+   "Paradise Papers - Malta corporate registry": [
+    107209,
+    553
+   ],
+   "Paradise Papers - Samoa corporate registry": [
+    5828,
+    3
+   ]
+  },
+  "one stratum": {
+   "all": [
+    571870,
+    14878
+   ]
+  },
+  "leak, random halves": {
+   "Bahamas Leaks|0": [
+    12720,
+    328
+   ],
+   "Bahamas Leaks|1": [
+    12527,
+    342
+   ],
+   "Offshore Leaks|0": [
+    51801,
+    470
+   ],
+   "Offshore Leaks|1": [
+    52438,
+    518
+   ],
+   "Panama Papers|0": [
+    112482,
+    5592
+   ],
+   "Panama Papers|1": [
+    112484,
+    5659
+   ],
+   "Paradise Papers|0": [
+    108636,
+    936
+   ],
+   "Paradise Papers|1": [
+    108782,
+    1033
+   ]
+  }
+ },
+ "leak (paper)": {
+  "n_strata": 4,
+  "real": 0.7624767275375308,
+  "ref": 0.6505506580028382,
+  "ref_sd": 0.0039414823977471074,
+  "thm2": 0.6524618416374168,
+  "rate_min": 0.009056287887847372,
+  "rate_max": 0.05001200181360739
+ },
+ "sourceID": {
+  "n_strata": 11,
+  "real": 0.7624767275375308,
+  "ref": 0.6599438602584211,
+  "ref_sd": 0.004411651690609305,
+  "thm2": 0.6611793574528355,
+  "rate_min": 0.0,
+  "rate_max": 0.05001200181360739
+ },
+ "one stratum": {
+  "n_strata": 1,
+  "real": 0.7624767275375308,
+  "ref": 0.4999171543804616,
+  "ref_sd": 0.00552250217311277,
+  "thm2": 0.5,
+  "rate_min": 0.026016402329200692,
+  "rate_max": 0.026016402329200692
+ },
+ "leak, random halves": {
+  "n_strata": 8,
+  "real": 0.7624767275375308,
+  "ref": 0.6513893065202778,
+  "ref_sd": 0.003648029681280964,
+  "thm2": 0.6524546370966559,
+  "rate_min": 0.008615928421517729,
+  "rate_max": 0.05030937733366523
+ }
+}

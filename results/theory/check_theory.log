@@ -1,0 +1,11 @@
+E_s[g] by source: [np.float64(1.0), np.float64(1.0), np.float64(1.001)] (should all be ~1)
+T5(c): max |delta - median| 0.32079 <= eps 0.38276: True
+T5(c): |AUC(bal) - AUC(g)| = 0.00027 <= P(|dlog g| <= 2eps) = 0.9951: True
+T5(a): AUC(pooled) 0.6536 = AUC(r*g) 0.6536; AUC(r) 0.6536
+T5(d): AUC_PU - 1/2 = 0.0287 vs (1-gamma)(AUC - 1/2) = 0.0162
+P8: reference 0.6582 <= bound 0.7635 (TV form 0.7635)
+    Theorem 3 closed form 0.6582 vs brute-force AUC(r) on permuted population 0.6566
+P9: noise 0.02: |A_hat - A| = 0.0085 <= bound 0.0924: True
+P9: noise 0.05: |A_hat - A| = 0.0018 <= bound 0.1439: True
+P9: noise 0.1: |A_hat - A| = 0.0003 <= bound 0.3226: True
+C7: false transfer/reversal calls under H0: 0.050 over 300 replicates (bound 0.05; MC s.e. 0.013)
