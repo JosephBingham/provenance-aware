@@ -1,0 +1,12 @@
+PREFIX ftm: <https://w3id.org/anon-e2/ftm#>
+# Count-invariant cohort: persons recorded by exactly one non-label dataset (provenance graph), that dataset being a
+# source; positives = persons for which any label graph asserts the topic "sanction".
+SELECT ?g (COUNT(DISTINCT ?p) AS ?persons) (COUNT(DISTINCT ?pos) AS ?positives)
+       (COUNT(DISTINCT ?pos) / COUNT(DISTINCT ?p) AS ?labelRate)
+WHERE {
+  GRAPH <https://w3id.org/anon-e2/graph/meta> { ?g ftm:role "source" }
+  GRAPH ?g { ?p a ftm:Person }
+  FILTER NOT EXISTS { GRAPH ?g2 { ?p a ftm:Person } FILTER (?g2 != ?g) }
+  OPTIONAL { GRAPH ?lg { ?p ftm:topic "sanction" } BIND(?p AS ?pos) }
+}
+GROUP BY ?g ORDER BY DESC(?labelRate)

@@ -1,0 +1,14 @@
+PREFIX ex: <https://w3id.org/anon-icij/ont#>
+# Provenance audit: label rate per leak, from named graphs. An officer belongs to the leak whose
+# named graphs contribute its (non-beneficial) officerOf triples; no officer spans two leaks in this export.
+SELECT ?leak (COUNT(DISTINCT ?o) AS ?officers) (COUNT(DISTINCT ?p) AS ?positives)
+       (COUNT(DISTINCT ?p) / COUNT(DISTINCT ?o) AS ?labelRate)
+WHERE {
+  GRAPH ?g { ?o ex:officerOf ?e }
+  GRAPH <https://w3id.org/anon-icij/graph/meta> { ?g ex:leak ?leak }
+  GRAPH <https://w3id.org/anon-icij/graph/nodes> { ?o a ex:Officer }
+  FILTER (?leak != "untagged")
+  OPTIONAL { GRAPH <https://w3id.org/anon-icij/graph/labels> { ?o a ex:NameMatchedNominee } BIND(?o AS ?p) }
+}
+GROUP BY ?leak
+ORDER BY DESC(?labelRate)
